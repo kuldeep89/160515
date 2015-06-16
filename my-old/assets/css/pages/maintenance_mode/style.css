@@ -1,0 +1,109 @@
+@import url(reset.css);
+@import 'font.css';
+
+html,body {
+	font-family:'Verlag XLight';
+	height: 100%;
+	width: 100%;
+}
+
+#header { text-align: center; border-bottom: 1px solid #999; }
+
+#header p { margin:5px 0px; }
+
+#content { margin:0 auto; padding: 2%; text-align: center; width: 96%; max-width: 600px;}
+
+#headline { font-family:'Oswald', sans-serif; font-size: 300%; margin-top:5px; margin-bottom:5px;}
+
+/*/////////////////////
+Custom CSS
+//////////////////////*/
+#message{
+	text-shadow: 0px 2px 0px #646466;
+	font-size: 42px; 
+}
+#logo{
+	text-align: center; 
+	padding-top: 2%; 
+}
+#email{
+	padding: 2% 0px;
+	width: 100%;
+	margin-left: auto; 
+	margin-right: auto; 
+}
+#email p {
+	width: 100%; 
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 20px;
+	text-shadow: 0px 1px 1px #646466;
+}
+#sign-up {
+	padding-top: 25px;
+}
+#subscribe-form {
+	border: 0px;
+	color: #fff;
+	border-radius: 0px;
+	font-family: 'Merriweather', serif;
+	padding-top: 6%; 
+	color: #000 !important;
+	
+}
+#subscribe-form input, #subscribe-form button {
+	background-color:#FFF; /* fallback for browser that not support rgba below */
+	background-color: rgba(255,255,255, .2);
+	border: 1px solid rgba(255,255,255,.3);
+	float: middle;
+	vertical-align: middle;
+}
+#blog {
+	text-align: center;
+	font-family: 'Verlag Book';
+	padding-top: 6%;
+	font-size: 30px;
+	width: 100%;
+}
+#blog a {
+	color: #fff;
+}
+#social-media{
+	padding-top: 5%; 
+	font-weight: bolder; 
+	font-size: 20px;
+	text-align: center;
+	width: 100%;
+}
+#social-media div {
+	float: middle !important;
+	display: inline-block;
+	vertical-align: top;
+	padding-top: 12px;
+	font-family: 'Verlag Book';
+}
+#social-media img {
+	padding-left: 20px;
+	display: inline-block;
+	float: middle !important;
+	border: none;
+}
+
+@media (max-width: 400px) {
+	#subscribe-form input, #subscribe-form button {
+		margin: 5px 0px;
+		width: 100%;
+	}
+	#subscribe-form button {
+		font-size: 18px;
+	}
+	#message {
+		padding-top: 5%;
+	}
+}
+
+@media (max-width: 385px) {
+	#social-media {
+		padding-top: 30%;
+	}
+}

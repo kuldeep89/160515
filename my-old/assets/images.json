@@ -1,0 +1,23 @@
+[
+        {
+                "thumb": "/MBP/assets/tmp_images/item_img1-thumb.jpg",
+                "image": "/MBP/assets/tmp_images/item_img1.jpg",
+                "folder": "Small"
+        },
+        {
+                "thumb": "/image2_thumb.jpg",
+                "image": "/image2_200x150.jpg",
+                "folder": "Small"
+        },
+
+        {
+                "thumb": "/image1_thumb.jpg",
+                "image": "/image1_full.jpg",
+                "folder": "Large"
+        },
+        {
+                "thumb": "/image2_thumb.jpg",
+                "image": "/image2_full.jpg",
+                "folder": "Large"
+        }
+]

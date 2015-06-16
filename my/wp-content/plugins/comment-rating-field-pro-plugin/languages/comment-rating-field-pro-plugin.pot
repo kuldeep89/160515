@@ -1,0 +1,636 @@
+# Copyright (C) 2014 Comment Rating Field Pro Plugin
+# This file is distributed under the same license as the Comment Rating Field Pro Plugin package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Comment Rating Field Pro Plugin 2.4.5\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/support/plugin/comment-rating-"
+"field-pro-plugin\n"
+"POT-Creation-Date: 2014-05-25 18:58:19+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2014-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: _modules/dashboard/views/dashboard-nodata.php:14
+msgid ""
+"Thanks for using our plugins - why not check out some of our other amazing "
+"Premium WordPress Plugins?"
+msgstr ""
+
+#: _modules/dashboard/views/dashboard-nodata.php:15
+#: _modules/dashboard/views/dashboard.php:40
+msgid "Visit WP Cube"
+msgstr ""
+
+#: _modules/dashboard/views/dashboard.php:18
+msgid ""
+"Thanks for using our plugins - why not check out some of our other amazing "
+"Premium WordPress Plugins below?"
+msgstr ""
+
+#: _modules/dashboard/views/dashboard.php:33
+msgid "Visit the WP Cube Web Site"
+msgstr ""
+
+#: _modules/dashboard/views/dashboard.php:39
+msgid "Why not visit"
+msgstr ""
+
+#: _modules/dashboard/views/dashboard.php:39
+msgid "and check out some of our other amazing Premium WordPress Plugins?"
+msgstr ""
+
+#: _modules/dashboard/views/footer-upgrade.php:5
+msgid "Upgrade to Pro"
+msgstr ""
+
+#: _modules/dashboard/views/footer-upgrade.php:16
+#: _modules/dashboard/views/sidebar-pro.php:23
+#: _modules/dashboard/views/sidebar-pro.php:30 _modules/licensing/lum.php:283
+#: _modules/licensing/views/support.php:2
+msgid "Support"
+msgstr ""
+
+#: _modules/dashboard/views/footer-upgrade.php:16
+msgid "Access to one on one email support"
+msgstr ""
+
+#: _modules/dashboard/views/footer-upgrade.php:17
+#: _modules/dashboard/views/sidebar-pro.php:28
+#: _modules/licensing/views/support.php:26
+msgid "Documentation"
+msgstr ""
+
+#: _modules/dashboard/views/footer-upgrade.php:17
+msgid "Detailed documentation on how to install and configure the plugin"
+msgstr ""
+
+#: _modules/dashboard/views/footer-upgrade.php:18
+msgid "Updates"
+msgstr ""
+
+#: _modules/dashboard/views/footer-upgrade.php:18
+msgid ""
+"Receive one click update notifications, right within your WordPress "
+"Adminstration panel"
+msgstr ""
+
+#: _modules/dashboard/views/footer-upgrade.php:19
+msgid "Seamless Upgrade"
+msgstr ""
+
+#: _modules/dashboard/views/footer-upgrade.php:19
+msgid "Retain all current settings when upgrading to Pro"
+msgstr ""
+
+#: _modules/dashboard/views/footer-upgrade.php:25
+msgid "Upgrade Now"
+msgstr ""
+
+#: _modules/dashboard/views/sidebar-donate.php:10
+#: _modules/dashboard/views/sidebar-pro.php:10
+msgid "About"
+msgstr ""
+
+#: _modules/dashboard/views/sidebar-donate.php:13
+msgid ""
+"Found this plugin useful? Donations to help with support and development are "
+"appreciated."
+msgstr ""
+
+#: _modules/dashboard/views/sidebar-donate.php:30
+msgid "Donate Now"
+msgstr ""
+
+#: _modules/dashboard/views/sidebar-donate.php:40
+#: _modules/dashboard/views/sidebar-upgrade.php:10
+msgid "Keep Updated"
+msgstr ""
+
+#: _modules/dashboard/views/sidebar-donate.php:43
+#: _modules/dashboard/views/sidebar-upgrade.php:13
+msgid ""
+"Subscribe to the newsletter and receive updates on our WordPress Plugins"
+msgstr ""
+
+#: _modules/dashboard/views/sidebar-donate.php:49
+#: _modules/dashboard/views/sidebar-upgrade.php:19
+msgid "Email"
+msgstr ""
+
+#: _modules/dashboard/views/sidebar-donate.php:55
+#: _modules/dashboard/views/sidebar-upgrade.php:25
+msgid "Subscribe"
+msgstr ""
+
+#: _modules/dashboard/views/sidebar-pro.php:14
+msgid "Version"
+msgstr ""
+
+#: _modules/licensing/lum.php:271
+msgid ""
+"Plugin updated, but could not be reactivated. Please reactivate manually."
+msgstr ""
+
+#: _modules/licensing/lum.php:274
+msgid "Plugin updated and reactivated successfully."
+msgstr ""
+
+#: _modules/licensing/lum.php:282
+msgid "Import & Export"
+msgstr ""
+
+#: _modules/licensing/lum.php:294
+msgid "nonce field is missing. Settings NOT saved."
+msgstr ""
+
+#: _modules/licensing/lum.php:297
+msgid "Invalid nonce specified. Settings NOT saved."
+msgstr ""
+
+#: _modules/licensing/lum.php:301
+msgid "No JSON file uploaded."
+msgstr ""
+
+#: _modules/licensing/lum.php:303
+msgid "Error when uploading JSON file."
+msgstr ""
+
+#: _modules/licensing/lum.php:311
+msgid "Supplied file is not a CRFP settings file, or has become corrupt."
+msgstr ""
+
+#: _modules/licensing/lum.php:322
+msgid "Settings Imported."
+msgstr ""
+
+#: _modules/licensing/views/import-export.php:2
+msgid "Import &amp; Export"
+msgstr ""
+
+#: _modules/licensing/views/import-export.php:29
+#: _modules/licensing/views/import-export.php:39
+msgid "Import"
+msgstr ""
+
+#: _modules/licensing/views/import-export.php:33
+msgid ""
+"Upload a JSON file generated by this plugin to import settings. This will "
+"overwrite any existing settings stored on this installation."
+msgstr ""
+
+#: _modules/licensing/views/import-export.php:47
+#: _modules/licensing/views/import-export.php:56
+#: _modules/licensing/views/support.php:51
+msgid "Export"
+msgstr ""
+
+#: _modules/licensing/views/import-export.php:51
+msgid "To export all plugin settings, click the Export button below."
+msgstr ""
+
+#: _modules/licensing/views/import-export.php:52
+msgid ""
+"You can then import the generated JSON file into another plugin installation."
+msgstr ""
+
+#: _modules/licensing/views/licensing.php:2
+#: comment-rating-field-pro-plugin.php:186
+msgid "Licensing"
+msgstr ""
+
+#: _modules/licensing/views/licensing.php:26
+msgid "License Key"
+msgstr ""
+
+#: _modules/licensing/views/licensing.php:38 views/fields-form.php:63
+#: views/fields-form.php:78 views/fields-form.php:81 views/settings.php:342
+msgid "Save"
+msgstr ""
+
+#: _modules/licensing/views/support.php:30
+msgid ""
+"Firstly, please check and thoroughly review our Documentation.  It covers "
+"all available Settings and Frequently Asked Questions."
+msgstr ""
+
+#: _modules/licensing/views/support.php:34
+msgid "View Documentation"
+msgstr ""
+
+#: _modules/licensing/views/support.php:42
+msgid "Email Support"
+msgstr ""
+
+#: _modules/licensing/views/support.php:46
+msgid ""
+"If you are still encountering an error, problem or have a feature request, "
+"please follow these steps:"
+msgstr ""
+
+#: _modules/licensing/views/support.php:49
+msgid "1. Generate an Export of your Plugin's settings:"
+msgstr ""
+
+#: _modules/licensing/views/support.php:56
+msgid "2. Copy the below Debug Information:"
+msgstr ""
+
+#: _modules/licensing/views/support.php:61
+msgid ""
+"3. Email your Export file, Debug Information and precise issues you're "
+"experiencing:"
+msgstr ""
+
+#: _modules/licensing/views/support.php:63
+msgid "Email support@wpcube.co.uk"
+msgstr ""
+
+#: comment-rating-field-pro-plugin.php:41 views/settings.php:2
+msgid "Settings"
+msgstr ""
+
+#: comment-rating-field-pro-plugin.php:42
+msgid "Rating Fields"
+msgstr ""
+
+#: comment-rating-field-pro-plugin.php:236
+msgid "Rating field created."
+msgstr ""
+
+#: comment-rating-field-pro-plugin.php:248
+msgid "Field deleted."
+msgstr ""
+
+#: comment-rating-field-pro-plugin.php:302
+msgid "Fields activated."
+msgstr ""
+
+#: comment-rating-field-pro-plugin.php:310
+msgid "Fields deleted."
+msgstr ""
+
+#: comment-rating-field-pro-plugin.php:318
+msgid "Fields deactivated."
+msgstr ""
+
+#: comment-rating-field-pro-plugin.php:341
+msgid "Settings Updated."
+msgstr ""
+
+#: comment-rating-field-pro-plugin.php:423
+msgid "No ratings were left by this user."
+msgstr ""
+
+#: comment-rating-field-pro-plugin.php:875
+msgid "from"
+msgstr ""
+
+#: comment-rating-field-pro-plugin.php:877
+msgid "rating"
+msgstr ""
+
+#: comment-rating-field-pro-plugin.php:877
+msgid "ratings"
+msgstr ""
+
+#: comment-rating-field-pro-plugin.php:1053
+msgid "Display the top rated Posts for any given taxonomy."
+msgstr ""
+
+#: comment-rating-field-pro-plugin.php:1054
+msgid "CRFP Top Rated Posts"
+msgstr ""
+
+#: models/fields-table.php:33
+msgid "Field Label"
+msgstr ""
+
+#: models/fields-table.php:34
+msgid "Targeting"
+msgstr ""
+
+#: models/fields-table.php:35
+msgid "Required"
+msgstr ""
+
+#: models/fields-table.php:55 models/fields-table.php:122
+msgid "Delete"
+msgstr ""
+
+#: models/fields-table.php:119 models/fields-table.php:121
+msgid "Edit this item"
+msgstr ""
+
+#: models/fields-table.php:121
+msgid "Edit"
+msgstr ""
+
+#: models/fields-table.php:122
+msgid "Delete this item"
+msgstr ""
+
+#: models/fields.php:126 models/fields.php:162
+msgid "Fields could not be obtained from the database."
+msgstr ""
+
+#: models/fields.php:268
+msgid "Please enter the rating field label."
+msgstr ""
+
+#: models/fields.php:269
+msgid "Please choose at least one Placement Option."
+msgstr ""
+
+#: models/fields.php:325
+msgid "Field could not be deleted from the database."
+msgstr ""
+
+#: models/fields.php:343
+msgid "Fields could not be deleted from the database."
+msgstr ""
+
+#: views/fields-form.php:28
+msgid "Rating Field"
+msgstr ""
+
+#: views/fields-form.php:33
+msgid "Label"
+msgstr ""
+
+#: views/fields-form.php:40
+msgid "Required?"
+msgstr ""
+
+#: views/fields-form.php:47
+msgid "Required Text"
+msgstr ""
+
+#: views/fields-form.php:54
+msgid "Cancel Text"
+msgstr ""
+
+#: views/fields-form.php:63 views/fields-form.php:81
+msgid "Update"
+msgstr ""
+
+#: views/fields-form.php:88
+msgid "Targeted Placement Options"
+msgstr ""
+
+#: views/fields-table.php:4
+msgid "Fields"
+msgstr ""
+
+#: views/fields-table.php:5
+msgid "Add New"
+msgstr ""
+
+#: views/fields-table.php:10
+msgid "Search results for"
+msgstr ""
+
+#: views/fields-table.php:31 views/fields-table.php:33
+msgid "Search Rating Fields"
+msgstr ""
+
+#: views/popup.php:8
+msgid "Insert Average Rating"
+msgstr ""
+
+#: views/popup.php:20 views/settings.php:83 views/settings.php:180
+#: views/settings.php:277
+msgid "Display"
+msgstr ""
+
+#: views/popup.php:22 views/settings.php:86 views/settings.php:183
+#: views/settings.php:280
+msgid "Display when ratings exist"
+msgstr ""
+
+#: views/popup.php:23 views/settings.php:87 views/settings.php:184
+#: views/settings.php:281
+msgid "Always Display"
+msgstr ""
+
+#: views/popup.php:30 views/settings.php:106 views/settings.php:203
+#: views/settings.php:300
+msgid "Style"
+msgstr ""
+
+#: views/popup.php:32 views/settings.php:108 views/settings.php:205
+#: views/settings.php:302
+msgid "Yellow Stars only"
+msgstr ""
+
+#: views/popup.php:33 views/settings.php:109 views/settings.php:206
+#: views/settings.php:303
+msgid "Yellow Stars with Grey Stars"
+msgstr ""
+
+#: views/popup.php:40 views/settings.php:117 views/settings.php:214
+#: views/settings.php:311
+msgid "Show Average"
+msgstr ""
+
+#: views/popup.php:42 views/popup.php:69 views/popup.php:79
+#: views/settings.php:52 views/settings.php:62 views/settings.php:120
+#: views/settings.php:148 views/settings.php:158 views/settings.php:217
+#: views/settings.php:245 views/settings.php:255 views/settings.php:314
+#: views/settings.php:332
+msgid "Yes"
+msgstr ""
+
+#: views/popup.php:43 views/popup.php:70 views/popup.php:80
+#: views/settings.php:51 views/settings.php:61 views/settings.php:119
+#: views/settings.php:147 views/settings.php:157 views/settings.php:216
+#: views/settings.php:244 views/settings.php:254 views/settings.php:313
+#: views/settings.php:331
+msgid "No"
+msgstr ""
+
+#: views/popup.php:50 views/settings.php:224 views/settings.php:321
+msgid "Average Rating Text"
+msgstr ""
+
+#: views/popup.php:57 views/settings.php:135 views/settings.php:232
+msgid "Total Ratings"
+msgstr ""
+
+#: views/popup.php:59
+msgid "Do not display"
+msgstr ""
+
+#: views/popup.php:60
+msgid "Display the total number of ratings"
+msgstr ""
+
+#: views/popup.php:67 views/settings.php:145 views/settings.php:242
+#: views/settings.php:329
+msgid "Show Breakdown"
+msgstr ""
+
+#: views/popup.php:77 views/settings.php:155 views/settings.php:252
+msgid "Link to Comments Section"
+msgstr ""
+
+#: views/popup.php:87
+msgid "Post ID"
+msgstr ""
+
+#: views/popup.php:91
+msgid ""
+"Only required if you want to show the average ratings for a different Post/"
+"Page than this one"
+msgstr ""
+
+#: views/popup.php:96
+msgid "Insert"
+msgstr ""
+
+#: views/settings.php:28
+msgid "Rating Input"
+msgstr ""
+
+#: views/settings.php:32
+msgid "Controls where the rating field(s) are displayed on the Comment Form"
+msgstr ""
+
+#: views/settings.php:38 views/settings.php:96 views/settings.php:193
+#: views/settings.php:290
+msgid "Position"
+msgstr ""
+
+#: views/settings.php:40
+msgid "After Comment Field"
+msgstr ""
+
+#: views/settings.php:41
+msgid "Before Comment Field"
+msgstr ""
+
+#: views/settings.php:42
+msgid "Top of Comment Form / Before All Comment Fields"
+msgstr ""
+
+#: views/settings.php:49
+msgid "Disable on Replies"
+msgstr ""
+
+#: views/settings.php:59
+msgid "Enable Half / .5 Ratings"
+msgstr ""
+
+#: views/settings.php:66
+msgid ""
+"Allow visitors leaving comments to leave a half star review e.g. 3.5, 4.5"
+msgstr ""
+
+#: views/settings.php:73
+msgid "Rating Output: Excerpt"
+msgstr ""
+
+#: views/settings.php:77
+msgid ""
+"Allows you to display average ratings on archive pages, such as your Post "
+"lists"
+msgstr ""
+
+#: views/settings.php:85 views/settings.php:182 views/settings.php:279
+msgid "Never Display"
+msgstr ""
+
+#: views/settings.php:98
+msgid "Below Excerpt"
+msgstr ""
+
+#: views/settings.php:99
+msgid "Above Excerpt"
+msgstr ""
+
+#: views/settings.php:111 views/settings.php:208 views/settings.php:305
+msgid ""
+"If Yellow Stars with Grey Stars is chosen, ratings with less than 5 stars "
+"will show a mix denoting the rating in yellow plus remaining non-rating in "
+"grey."
+msgstr ""
+
+#: views/settings.php:127
+msgid "Average Label"
+msgstr ""
+
+#: views/settings.php:129 views/settings.php:226 views/settings.php:323
+msgid ""
+"If Display Average Rating above is selected, optionally define text to "
+"appear before the average rating stars are displayed."
+msgstr ""
+
+#: views/settings.php:137 views/settings.php:234
+msgid "Do not display the total number of ratings after the average rating"
+msgstr ""
+
+#: views/settings.php:138 views/settings.php:235
+msgid "Display the total number of ratings after the average rating"
+msgstr ""
+
+#: views/settings.php:162 views/settings.php:259
+msgid ""
+"If enabled, the Average Rating will be linked to the comments section of "
+"your Page, Post or Custom Post Type"
+msgstr ""
+
+#: views/settings.php:170
+msgid "Rating Output: Content"
+msgstr ""
+
+#: views/settings.php:174
+msgid ""
+"Allows you to display average ratings on single Pages, Posts and Custom Post "
+"Types"
+msgstr ""
+
+#: views/settings.php:195
+msgid "Below Content"
+msgstr ""
+
+#: views/settings.php:196
+msgid "Above Content"
+msgstr ""
+
+#: views/settings.php:267
+msgid "Rating Output: Comments"
+msgstr ""
+
+#: views/settings.php:271
+msgid "Defines how ratings are displayed on Comments"
+msgstr ""
+
+#: views/settings.php:292
+msgid "Below Comment Text"
+msgstr ""
+
+#: views/settings.php:293
+msgid "Above Comment Text"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Comment Rating Field Pro Plugin"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://www.wpcube.co.uk/plugins/comment-rating-field-pro-plugin"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Adds a 5 star rating field to the comments form in WordPress."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "WP Cube"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://www.wpcube.co.uk"
+msgstr ""

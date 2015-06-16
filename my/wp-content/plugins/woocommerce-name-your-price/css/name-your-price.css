@@ -1,0 +1,40 @@
+.minimum-price {
+	color: #666;
+}
+
+div.nyp {
+	margin-bottom: 1.625em;
+}
+
+input.nyp {
+	height:28px;
+	padding:0;
+	text-align:center;
+	border:1px solid #c8bfc6;
+	box-shadow:inset 0 0 2px 0 #f7f6f7;
+	-webkit-box-shadow:inset 0 0 2px 0 #f7f6f7;
+	-moz-box-shadow:inset 0 0 2px 0 #f7f6f7;
+	font-weight:bold;
+	-webkit-border-radius: 2px;
+	border-radius: 2px;
+}
+
+input.wc-error {
+	color: #D8000C;
+	border: 1px solid;
+	-webkit-border-radius: 2px;
+	border-radius: 2px;
+}
+
+div.wc-error {
+	color: #D8000C;
+	background-color: #FFBABA;
+	border: 1px solid;
+	margin: 10px 0px;
+	padding: 5px;
+text-align: center;
+}
+
+span.currency {
+	vertical-align: middle;
+}

@@ -1,0 +1,10 @@
+.product > .images {
+	float: left;
+	padding-right: 15px;
+}
+.product > .images img {
+	width: 450px;
+}
+.product div {
+	margin-bottom: 50px;
+}

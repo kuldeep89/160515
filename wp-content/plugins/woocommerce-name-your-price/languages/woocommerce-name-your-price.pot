@@ -1,0 +1,300 @@
+# Copyright (C) 2013 WooCommerce Name Your Price
+# This file is distributed under the same license as the WooCommerce Name Your Price package.
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce Name Your Price 1.1.5\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/woocommerce-name-your-price\n"
+"POT-Creation-Date: 2013-01-28 04:28:51+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2013-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: classes/class-wc-name-your-price-admin.php:59
+#: classes/class-wc-name-your-price-admin.php:203
+#: classes/class-wc-name-your-price-admin.php:206
+#: classes/class-wc-name-your-price-admin.php:340
+#: classes/class-wc-name-your-price-admin.php:421
+#: classes/class-wc-name-your-price-admin.php:466
+#: templates/single-product/price-input.php:25
+msgid "Name Your Price"
+msgstr ""
+
+#: classes/class-wc-name-your-price-admin.php:60
+msgid "Customers are allowed to determine their own price."
+msgstr ""
+
+#: classes/class-wc-name-your-price-admin.php:79
+#: classes/class-wc-name-your-price-admin.php:212
+#: classes/class-wc-name-your-price-admin.php:344
+#: classes/class-wc-name-your-price-admin.php:346
+#: classes/class-wc-name-your-price-admin.php:446
+#: templates/single-product/suggested-price.php:8
+#: woocommerce-name-your-price.php:293
+msgid "Suggested Price"
+msgstr ""
+
+#: classes/class-wc-name-your-price-admin.php:81
+msgid "Price to pre-fill for customers.  Leave blank to not suggest a price."
+msgstr ""
+
+#: classes/class-wc-name-your-price-admin.php:88
+#: classes/class-wc-name-your-price-admin.php:218
+#: classes/class-wc-name-your-price-admin.php:350
+#: classes/class-wc-name-your-price-admin.php:456
+#: templates/single-product/minimum-price.php:20
+msgid "Minimum Price"
+msgstr ""
+
+#: classes/class-wc-name-your-price-admin.php:90
+msgid ""
+"Lowest acceptable price for product. Leave blank to not enforce a minimum. "
+"Must be less than or equal to the set suggested price."
+msgstr ""
+
+#: classes/class-wc-name-your-price-admin.php:208
+msgid ""
+"In the \"Product Meta\" metabox, check the Name Your Price checkbox to allow "
+"your customers to enter their own price."
+msgstr ""
+
+#: classes/class-wc-name-your-price-admin.php:210
+msgid "Current this ability is only available for \"Simple\" Products."
+msgstr ""
+
+#: classes/class-wc-name-your-price-admin.php:214
+msgid ""
+"This is the price you'd like to suggest to your customers.  The Name Your "
+"Price input will be prefilled with this value.  To not suggest a price at "
+"all, you may leave this field blank."
+msgstr ""
+
+#: classes/class-wc-name-your-price-admin.php:216
+msgid "This value must be a positive number."
+msgstr ""
+
+#: classes/class-wc-name-your-price-admin.php:220
+msgid ""
+"This is the lowest price you are willing to accept for this product.  To not "
+"enforce a minimum (ie: to accept any price, including zero), you may leave "
+"this field blank."
+msgstr ""
+
+#: classes/class-wc-name-your-price-admin.php:222
+msgid ""
+"This value must be a positive number that is less than or equal to the set "
+"suggested price."
+msgstr ""
+
+#: classes/class-wc-name-your-price-admin.php:224
+msgid "Subscriptions"
+msgstr ""
+
+#: classes/class-wc-name-your-price-admin.php:226
+msgid ""
+"If you have a name your price subscription product, the subscription time "
+"period fields are still needed, but the price will be disabled in lieu of "
+"the Name Your Price suggested and minimum prices."
+msgstr ""
+
+#: classes/class-wc-name-your-price-admin.php:248
+msgid "Sort by suggested price"
+msgstr ""
+
+#: classes/class-wc-name-your-price-admin.php:248
+msgid "Suggested"
+msgstr ""
+
+#: classes/class-wc-name-your-price-admin.php:248
+msgid "Minimum"
+msgstr ""
+
+#: classes/class-wc-name-your-price-admin.php:352
+msgid "Minimum price"
+msgstr ""
+
+#: classes/class-wc-name-your-price-admin.php:438
+msgid "Name Your Price Setup"
+msgstr ""
+
+#: classes/class-wc-name-your-price-admin.php:438
+msgid "Modify the text strings used by the Name Your Own Price extension."
+msgstr ""
+
+#: classes/class-wc-name-your-price-admin.php:441
+msgid "Suggested Price Text"
+msgstr ""
+
+#: classes/class-wc-name-your-price-admin.php:442
+msgid "This is the text to display before the suggested price."
+msgstr ""
+
+#: classes/class-wc-name-your-price-admin.php:451
+msgid "Minimum Price Text"
+msgstr ""
+
+#: classes/class-wc-name-your-price-admin.php:452
+msgid "This is the text to display before the minimum accepted price."
+msgstr ""
+
+#: classes/class-wc-name-your-price-admin.php:461
+msgid "Name Your Price Text"
+msgstr ""
+
+#: classes/class-wc-name-your-price-admin.php:462
+msgid "This is the text that appears above the Name Your Price input field."
+msgstr ""
+
+#: classes/class-wc-name-your-price-admin.php:471
+msgid "Add to Cart Button Text for Shop"
+msgstr ""
+
+#: classes/class-wc-name-your-price-admin.php:472
+msgid ""
+"This is the text that appears on the Add to Cart buttons on the Shop Pages."
+msgstr ""
+
+#: classes/class-wc-name-your-price-admin.php:476
+#: woocommerce-name-your-price.php:310
+msgid "Set Price"
+msgstr ""
+
+#: classes/class-wc-name-your-price-admin.php:481
+msgid "Add to Cart Button Text for Single Product"
+msgstr ""
+
+#: classes/class-wc-name-your-price-admin.php:482
+msgid ""
+"This is the text that appears on the Add to Cart buttons on the Single "
+"Product Pages."
+msgstr ""
+
+#: classes/class-wc-name-your-price-admin.php:486
+#: woocommerce-name-your-price.php:312
+msgid "Add to Cart"
+msgstr ""
+
+#: classes/class-wc-name-your-price-admin.php:505
+msgid "You do not have sufficient permissions to access this page."
+msgstr ""
+
+#: templates/single-product/minimum-price.php:20
+msgctxt "In case you need to change the order of Minimum Price: $minimum"
+msgid "%s: %s"
+msgstr ""
+
+#: templates/single-product/price-input.php:25
+msgctxt ""
+"In case you need to change the order of Name Your Price ( $currency_symbol )"
+msgid "%s ( %s )"
+msgstr ""
+
+#: templates/single-product/suggested-price.php:8
+#: woocommerce-name-your-price.php:293
+msgctxt "In case you need to change the order of Suggested Price: $suggested"
+msgid "%s: %s"
+msgstr ""
+
+#: woo-includes/class-woothemes-plugin-updater.php:147
+msgid "WooThemes Updates"
+msgstr ""
+
+#: woo-includes/class-woothemes-plugin-updater.php:167
+msgid "WooThemes Plugin Updater"
+msgstr ""
+
+#: woo-includes/class-woothemes-plugin-updater.php:174
+msgid "WooThemes Username"
+msgstr ""
+
+#: woo-includes/class-woothemes-plugin-updater.php:178
+msgid "WooThemes Password"
+msgstr ""
+
+#: woo-includes/class-woothemes-plugin-updater.php:187
+msgid "Login"
+msgstr ""
+
+#: woo-includes/class-woothemes-plugin-updater.php:238
+msgid "Switch WooThemes Account"
+msgstr ""
+
+#: woo-includes/class-woothemes-plugin-updater.php:240
+msgid ""
+"You are currently logged in as %1$s. To switch to a different WooThemes "
+"account, please fill in the login details below."
+msgstr ""
+
+#: woo-includes/class-woothemes-plugin-updater.php:243
+msgid "Update your Plugins"
+msgstr ""
+
+#: woo-includes/class-woothemes-plugin-updater.php:250
+msgid "Login Error"
+msgstr ""
+
+#: woo-includes/class-woothemes-plugin-updater.php:252
+msgid "The login details supplied are invalid. Please try again."
+msgstr ""
+
+#: woo-includes/class-woothemes-plugin-updater.php:262
+msgid "Enable WooThemes Plugin Updates."
+msgstr ""
+
+#: woo-includes/class-woothemes-plugin-updater.php:264
+msgid "Please <a href=\"%1$s\">login</a> to enable automatic plugin updates."
+msgstr ""
+
+#: woo-includes/class-woothemes-plugin-updater.php:277
+msgid "Hide This Message"
+msgstr ""
+
+#: woocommerce-name-your-price.php:96
+msgid ""
+"WooCommerce <strong>Name Your Price</strong> extension requires at least "
+"WooCommerce %s in order to function. Please upgrade your WooCommerce."
+msgstr ""
+
+#: woocommerce-name-your-price.php:417
+msgid "Please enter a valid number."
+msgstr ""
+
+#: woocommerce-name-your-price.php:421
+msgid "You cannot enter a negative value."
+msgstr ""
+
+#: woocommerce-name-your-price.php:425
+msgid "Please enter at least %s."
+msgstr ""
+
+#: woocommerce-name-your-price.php:440
+msgid "Go to the settings page"
+msgstr ""
+
+#: woocommerce-name-your-price.php:440
+msgid "Settings"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "WooCommerce Name Your Price"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://woothemes.com/woocommerce"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"WooCommerce Name Your Price allows customers to set their own price for "
+"products or donations."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Kathy Darling"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://kathyisawesome.com"
+msgstr ""

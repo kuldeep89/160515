@@ -1,0 +1,16 @@
+.featured-image {
+	padding: 5px;
+	border: 1px solid #ccc;
+	background: #fff;
+	margin: 5px;
+	cursor: pointer;
+}
+.featured-image:hover, .clicked {
+	background: #31a94f !important;
+}
+iframe{
+	max-width: 99% !important;
+}
+.news-item-page a {
+	word-break: break-all !important;
+}

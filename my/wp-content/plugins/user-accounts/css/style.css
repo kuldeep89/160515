@@ -1,0 +1,82 @@
+fieldset {
+	width: 95%;
+	max-width: 1000px;
+	padding: 15px 10px 20px 10px;
+	border: 1px solid #767676;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+}
+
+legend {
+	font-weight: bold;
+}
+
+#scheduled_events {
+	border: 1px solid #DFDFDF;
+	border-collapse: collapse;
+	width: 100%;
+}
+
+#scheduled_events td {
+	border: 1px solid #DFDFDF;
+	border-collapse: collapse;
+	padding: 5px;
+}
+
+#scheduled_events td img {
+	cursor: pointer;
+}
+
+#venue-status{
+	background: url("../images/venue-status.png") top center no-repeat;
+	width: 250px;
+	height: 100px;
+	position: relative;
+}
+
+#venue-status p{
+	font: bold 28px Arial;
+	text-shadow: 1px 1px 0 #fff;
+	color: rgb(160,160,160);
+	position: absolute;
+	bottom: 12px;
+	right: 10px;
+}
+
+#venue-status-label {
+	font-size: 18px;
+	font-weight: bold;
+	padding-top: 20px;
+	padding-left: 10px;
+}
+
+.weather_open {
+	color: #318847;
+	margin: 7px 0px 0px 10px;
+	float: left;
+	font-size: 40px;
+	font-weight: bold;
+}
+
+.weather_closed {
+	color: #FF0000;
+	margin: 7px 0px 0px 10px;
+	float: left;
+	font-size: 40px;
+	font-weight: bold;
+}
+
+.weather_delay {
+	color: #BFA840;
+	margin: 7px 0px 0px 10px;
+	float: left;
+	font-size: 40px;
+	font-weight: bold;
+}
+
+.weather_icon {
+	 right: 15px;
+	 top: 0px;
+	 position:  absolute;
+}

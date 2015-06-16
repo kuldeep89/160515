@@ -1,0 +1,198 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video, input {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+:focus {
+  outline: 0; }
+
+a, div, li {
+  transition: 0.35s; }
+  a:hover, div:hover, li:hover {
+    transition: 0.35s; }
+
+body {
+  font-size: 1em;
+  font-family: "Open Sans", sans-serif; }
+  body .col-1 {
+    float: none !important;
+    margin: 0 auto !important; }
+    body .col-1 fieldset {
+      margin-bottom: 40px; }
+      body .col-1 fieldset legend {
+        margin-bottom: 20px;
+        color: #67aded;
+        font-size: 1.3em;
+        font-weight: 300; }
+        body .col-1 fieldset legend span {
+          display: inline-block;
+          text-align: center;
+          margin-right: 6px;
+          color: #fff;
+          background-color: #67aded;
+          height: 36px;
+          width: 36px;
+          border-radius: 18px; }
+      body .col-1 fieldset label {
+        opacity: 0; }
+      body .col-1 fieldset select {
+        width: 98.5% !important; }
+      body .col-1 fieldset .span6 input {
+        margin-top: 19px;
+        margin-bottom: 1px;
+        padding: 9px 2%;
+        width: 92%;
+        color: #555555;
+        font-size: 0.9em;
+        font-weight: 300;
+        border: 1px solid #ababab;
+        border-bottom: 4px solid #ababab; }
+      body .col-1 fieldset .span12 input {
+        margin-top: 19px;
+        margin-bottom: 1px;
+        padding: 9px 2%;
+        width: 94%;
+        color: #555555;
+        font-size: 0.9em;
+        font-weight: 300;
+        border: 1px solid #ababab;
+        border-bottom: 4px solid #ababab; }
+
+/* Checkout styles */
+#checkout {
+  margin-top: 40px; }
+
+#pricing {
+  width: 100%;
+  margin-bottom: 20px; }
+
+.sub_pricing {
+  display: inline-block;
+  width: 48%;
+  text-align: center; }
+
+.pricing_separator {
+  border-left: 1px solid #e2e2e2;
+  width: 1%;
+  display: inline-block;
+  height: 170px; }
+
+.choose_sub {
+  margin: 0px auto;
+  cursor: pointer;
+  background-image: url(/wp-content/themes/ppmlayout/assets/img/radio_button.png);
+  height: 28px;
+  width: 28px; }
+
+.choose_sub_active {
+  margin: 0px auto;
+  cursor: pointer;
+  background-image: url(/wp-content/themes/ppmlayout/assets/img/radio_button.png);
+  background-position: 0px -28px;
+  height: 28px;
+  width: 28px; }
+
+.sub_price {
+  color: #67aded;
+  font-weight: 700;
+  font-size: 150px;
+  height: 150px;
+  line-height: 150px !important; }
+
+.sub_label {
+  font-size: 25px;
+  color: #67aded;
+  font-weight: 600;
+  padding: 25px 0px 10px 0px;
+  height: 60px;
+  line-height: 60px !important; }
+
+.dolla_dolla_bill_yall {
+  font-size: 70px;
+  margin-top: 25px;
+  display: inline-block;
+  vertical-align: top;
+  height: 70px;
+  line-height: 70px !important; }
+
+/* CC form styling */
+#payment input, #payment select {
+  margin: 10px 20px !important; }
+
+#authorize-net-cim-cc-number, #authorize-net-cim-cc-exp-month {
+  margin-left: 30px !important; }
+
+/* Responsive */
+@media (max-width: 1000px) {
+  .row-fluid {
+    width: 100%; }
+
+  .col-1 {
+    width: 75% !important; } }
+@media (max-width: 750px) {
+  .col-1 {
+    width: 90% !important; } }
+@media (max-width: 500px) {
+  .pricing_separator {
+    height: 95px; }
+
+  .span6, .span12 {
+    display: block !important;
+    width: 100% !important; }
+
+  .col-1 {
+    width: 90% !important; }
+
+  .sub_label {
+    font-size: 17px; }
+
+  .sub_price {
+    font-size: 75px; }
+
+  .dolla_dolla_bill_yall {
+    font-size: 35px;
+    margin-top: 10px; } }
+
+/*# sourceMappingURL=checkout.css.map */

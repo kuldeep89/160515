@@ -1,0 +1,91 @@
+<div class="modal-body">
+<?php
+$url = str_replace('local.', '',$_SERVER['HTTP_HOST']);
+$local = str_replace('dev.saltsha.com', '',$_SERVER['HTTP_HOST']);
+$path = 'http://'.$local.'my.'.$url; 
+
+?>	      	
+  	<!-- LOGIN -->
+  	<div>
+	  	<div id="myLogin">
+	  		<form id="login-form" action="" method="post">
+				<div class="error-messages"></div>
+				<div class="form-group">
+					<label class="control-label visible-ie8 visible-ie9">Username or Email</label>
+					<div class="input-icon">
+						<input class="form-control placeholder-no-fix" type="text" name="log" id="log" value="<?php echo wp_specialchars(stripslashes($user_login), 1) ?>"type="text" autocomplete="off" placeholder="Username or Email" >
+					</div>
+				</div>
+				<div class="form-group">
+					<label class="control-label visible-ie8 visible-ie9">Password</label>
+					<div class="input-icon">
+						<input class="form-control placeholder-no-fix"  autocomplete="off" placeholder="Password" type="password" name="pwd" id="pwd">
+					</div>
+				</div>
+				<input type="submit" id="login-submit" name="submit" value="Log In">	
+			</form>
+	  	</div>
+	  	
+	  	<!-- RESET PASSWORD -->
+	  	<div id="myReset">
+	      	<form id="reset-form" action="<?php echo 'http://my.' . $_SERVER['HTTP_HOST'] . '/reset-password' ?>" method="get" novalidate="novalidate">
+				<div class="error-messages"></div>
+				<div class="success-messages"></div>		
+				<div class="form-group">
+					<label class="control-label visible-ie8 visible-ie9">Email</label>
+					<div class="input-icon">
+						<i class="fa fa-lock"></i>
+						<input class="form-control placeholder-no-fix error" autocomplete="off" placeholder="Email" type="email" name="email_address" id="email">
+					</div>
+				</div>
+				<input type="submit" name="submit" value="Reset"> 	
+			</form>
+	  	</div>
+	  	
+	  	<!-- REGISTER -->
+	  	<div id="myRegister">
+<<<<<<< HEAD
+	      	<form id="register-form">
+				  	<a href="<?php $path?>/shop/?add-to-cart=1767" class="">Yearly Subscription</a>
+				  	<a href="<?php $path?>/shop/?add-to-cart=926" class="">or Pay Monthly</a>
+	</form>
+=======
+	      	<form id="register-form" action="#" method="post" novalidate="novalidate">
+			
+				<div class="error-messages-register"></div>
+				
+					<div class="form-group">
+						<label class="control-label visible-ie8 visible-ie9">Username</label>
+						<div class="input-icon">
+							<input class="form-control placeholder-no-fix" value="" autocomplete="off" placeholder="Username" type="text" name="user_login" id="user_login">
+						</div>
+					</div>			
+					<div class="form-group">
+						<label class="control-label visible-ie8 visible-ie9">Email</label>
+						<div class="input-icon">
+							<input class="form-control placeholder-no-fix" value="" autocomplete="off" placeholder="Email" type="email" name="user_email" id="user_email">
+						</div>
+					</div>			
+					<div class="form-group">
+						<label class="control-label visible-ie8 visible-ie9">Password</label>
+						<div class="input-icon">
+
+							<input class="form-control placeholder-no-fix" autocomplete="off" placeholder="Password" type="password" name="password" id="pass1">
+						</div>
+					</div>
+					<div class="form-group">
+						<label class="control-label visible-ie8 visible-ie9">Confirm Password</label>
+						<div class="input-icon">
+							<input class="form-control placeholder-no-fix" autocomplete="off" placeholder="Confirm Password" type="password" name="repeat_password" id="pass2">
+						</div>
+					</div>
+				<input type="submit" name="submit" value="Register"> 	
+			</form>
+>>>>>>> 27bc1ddcba4ede9c03ba473883ee4b84edf9deee
+	  	</div>
+  	</div>
+  	<a href="#" class="reset active" data-target="#myReset">Lost Password?</a>
+	<a href="#" class="register active" data-target="#myRegister">Register?</a>
+	<a href="#" class="login" data-target="#myLogin">Login?</a>
+	<span class="clear"></span>
+</div>

@@ -1,0 +1,35 @@
+/**********************************
+* Resources
+**********************************/
+.attached-resources {
+	padding: 10px;
+}
+.resource {
+	float: left;
+	width: 325px;
+	min-height: 145px;
+}
+.resource img {
+	float: left;
+}
+.resource-info {
+	float: right;
+	width: 215px;
+}
+.resource-info a {
+	display: block;
+}
+.delete-resource-link {
+	color:#a00;
+	text-decoration: none;
+}
+.delete-resource-link:hover {
+	text-decoration: underline;
+}
+
+/**********************************
+* General
+**********************************/
+.clear {
+	clear: both;
+}

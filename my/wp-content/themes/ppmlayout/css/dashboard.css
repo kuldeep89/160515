@@ -1,0 +1,128 @@
+.responsive_image{
+	width:100%;
+	display:block;
+	margin-top: 8px;
+}
+.responsive_image img{
+	width:100%;
+	height:auto;
+}
+
+
+
+.btn.green i{
+	margin-left:.25em;
+}
+.modal{
+	left: 5% !important;
+	top: 100px !important;
+	margin-left: 0px !important;
+}
+.fulfillment_modal {
+    width:30%;
+    margin-left:35% !important;
+    top: 5% !important;
+}
+#videoModal{
+	width:680px;
+	height:500px;
+	left:50% !important;
+	top:50% !important;
+	margin-top: -250px!important;
+	margin-left: -340px !important;
+	z-index:10000 !important;
+}
+#videoModal iframe{
+	margin:0 auto !important;
+}
+.twitter-timestamp, .twitter-tools {
+	font-size: 12px;
+	color: #b2b2b2;
+	display: inline-block;
+	padding: 5px 0px;
+}
+.twitter-timestamp {
+	font-style: italic;
+}
+.twitter-tools {
+	color: #b2b2b2;
+	float: right;
+}
+.twitter-tools a {
+	color: #b2b2b2;
+	text-decoration: none;
+}
+.twitter-tools img {
+	vertical-align: top;
+}
+.really_simple_twitter_widget {
+	list-style-type: none; 
+	margin-left: 0px; 
+}
+.really_simple_twitter_widget li {
+	padding: 25px 5px 5px 5px;
+	border-top: solid 1px #e9f0fa;
+	margin-bottom: 10px;
+	font-size: 16px;
+	font-weight: 300;
+	color: #323e4e;
+}
+.saltsha-twitter-name {
+	display: inline-block;
+	font-size: 16px;
+	font-weight: 600;
+	padding: 10px 0px 20px 10px;
+}
+.twitter-follow-button {
+	display: inline-block;
+	float: right;
+	padding: 3px 5px;
+}
+
+@media only screen and (max-width:1280px){
+	.widget_column.span4{
+		width:48.55%;
+	}
+	.widget_column.span4:last-child{
+		margin:0;
+	}
+}
+@media only screen and (max-width:768px){
+	.widget_column.span4{
+		width:100%;
+	}
+}
+
+
+
+.alert.saltsha-alert{
+	color:white;
+	width:100%;
+	max-width:60em;
+}
+.alerts_page_alert strong{
+	max-width: 50em;
+	display: inline-block;
+}
+.alert-red{
+	background:#ff4b4b;
+}
+.alert-yellow{
+	background:#ffcc00;
+}
+.alert-yellow a{
+	color:#333B4E;
+}
+.alert-green{
+	background:#5cd562;
+}
+i.alert-icon{
+	color:rgba(0,0,0,0.4);
+	text-shadow: none !important;
+}
+button.alert-close{
+	color:rgba(0,0,0,0.4);
+	font-weight: bolder;
+	height:20px !important;
+	margin-top:7px;
+}

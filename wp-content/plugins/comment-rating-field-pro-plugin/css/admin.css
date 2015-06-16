@@ -1,0 +1,4 @@
+/**
+* Edit Comment: Remove padding on rating fields
+*/
+#comment-rating-field-pro-plugin-ratings .inside { margin: 0; padding: 0; }

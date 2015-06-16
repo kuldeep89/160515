@@ -1,0 +1,103 @@
+.fancy-product {
+  margin-top: 10px !important; }
+  .fancy-product .shop_attributes td p {
+    margin-bottom: 0px; }
+  .fancy-product div {
+    margin-bottom: 0px !important; }
+  .fancy-product div.price {
+    margin: 0px; }
+  .fancy-product .summary {
+    display: block;
+    width: 100% !important; }
+  .fancy-product .table {
+    width: auto !important; }
+  .fancy-product .images, .fancy-product .posted_in {
+    display: none; }
+
+/************************************************************
+** Product Elements
+************************************************************/
+.variations_button {
+  margin-top: 20px; }
+  .variations_button .qty {
+    height: 17px;
+    margin-top: 10px;
+    background: #fff; }
+
+.stock {
+  display: inline; }
+
+/************************************************************
+** Product Listing
+************************************************************/
+.products .product {
+  width: 250px;
+  float: left !important;
+  clear: none !important;
+  margin: 0px 20px 20px 10px; }
+  .products .product a {
+    color: #333; }
+    .products .product a h3 {
+      font-size: 1.1em !important;
+      line-height: 1.4em !important;
+      font-weight: bold;
+      display: block !important;
+      clear: left; }
+  .products .product .image-thumb {
+    width: 250px;
+    height: 250px;
+    display: block;
+    background-color: #ccc;
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; }
+
+/************************************************************
+** Category Listing
+************************************************************/
+#product-categories .product-category {
+  width: 250px;
+  float: left !important;
+  clear: none !important;
+  margin: 0px 0px 20px 30px; }
+  #product-categories .product-category .image-thumb {
+    width: 250px;
+    height: 250px;
+    display: block;
+    background: #ccc;
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; }
+  #product-categories .product-category h3 {
+    font-size: 1.1em !important;
+    line-height: 1.4em !important;
+    font-weight: bold;
+    display: block !important;
+    clear: left; }
+  #product-categories .product-category h3 a {
+    color: #333b4e; }
+
+/************************************************************
+** View Cart Button
+************************************************************/
+.view-cart-button {
+  float: right;
+  margin-top: 20px;
+  color: #fff !important;
+  background: #4d90fe;
+  padding: 17px 15px;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 14px; }
+
+.view-cart-button:hover {
+  background: #0362fd !important;
+  text-decoration: none; }
+
+/*# sourceMappingURL=fancy-product-designer.css.map */

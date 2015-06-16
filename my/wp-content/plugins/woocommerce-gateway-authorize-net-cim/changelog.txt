@@ -1,0 +1,42 @@
+*** WooCommerce Authorize.net CIM Gateway Changelog ***
+
+2014.01.20 - version 1.1
+ * Misc - WooCommerce 2.1 compatibility
+ * Misc - Uses SkyVerge Plugin Framework
+ * Localization - Text domain changed from `wc-gateway-authorize-net-cim` to `woocommerce-gateway-authorize-net-cim`
+
+2013.09.24 - version 1.0.9
+ * Feature - Add support for WooCommerce Subscriptions 1.4 "Change Payment Method" feature
+ * Fix - Correctly store payment profile ID on subscription orders when initial total is $0
+ * Tweak - The Bill To State/Province is now properly displayed when required at checkout if using a European payment processor
+
+2013.08.23 - version 1.0.8
+ * Tweak - All billing fields are now required at checkout when using a European payment processor
+ * Tweak - Prevent a potential "duplicate transaction" error when a customer is re-entering an incorrect CVV
+ * Tweak - Update plugin action links
+
+2013.08.09 - version 1.0.7
+ * Fix - When the CVV is set as required, customers must enter it even when using a saved card. This ensures any CVV filters set with the Authorize.net control panel will flag mismatched/invalid CVV codes.
+
+2013.07.26 - version 1.0.6
+ * Tweak - You can now delete the CIM customer profile ID stored for the customer from the Edit User page
+
+2013.07.12 - version 1.0.5
+ * Tweak - Strip non-digits from credit card and CVV fields before processing, kudos Brian D.
+
+2013.06.18 - version 1.0.4
+ * Tweak - Display a notice if the CIM Add-On is not enabled for your Authorize.net account
+
+2013.05.31 - version 1.0.3
+ * Tweak - Increase the range of valid credit card expiration dates to 10 years
+
+2013.05.17 - version 1.0.2
+ * Feature - You can now change the CIM customer profile ID stored for the customer from the Edit User page
+ * Tweak - Added `wc_authorize_net_cim_transaction_description` filter so the default transaction description can be changed
+ * Tweak - Added `wc_authorize_net_cim_transaction_po_number` filter so PO Numbers can be provided for transactions
+
+2013.05.03 - version 1.0.1
+ * Tweak - Include shipping information in CIM profile transactions
+
+2013.04.11  - version 1.0
+ * Initial Release :)

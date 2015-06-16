@@ -1,0 +1,46 @@
+.color-box {
+	display: inline-block;
+	height: 35px;
+	width: 35px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+.color-box.purple {
+	background-color: #852b99;
+}
+.color-box.blue {
+	background-color: #4b8df8;
+}
+.color-box.red {
+	background-color: #e02222;
+}
+.color-box.green {
+	background-color: #35aa47;
+}
+.color-box.grey {
+	background-color: #555555;
+}
+.color-box.yellow {
+	background-color: #ffb848;
+}
+.color-box.light-grey {
+	background-color: #fafafa;
+}
+
+/**********************************
+* Icon Listing
+**********************************/
+.icon-list {
+	width: 400px;
+	display: block;
+}
+.icon-list li {
+	float: left;
+	display: block;
+	width: 200px;
+	font-size: 14px;
+	cursor: pointer;
+}
+#icon, #color {
+	
+}

@@ -1,0 +1,370 @@
+<?php  
+
+
+class Ion_auth_mongodb_tests extends CI_Controller {
+	
+	
+		public function __construct() {
+			parent::__construct();
+		}
+		
+		public function run_tests() {
+			
+			echo ('<h2>Ion Auth Mango DB Model Tests</h2>
+			The following tests have been ran on the Ion Auth Mongo DB Model through the controller method ion_auth_mongodb_tests/run_tests <br /><br />');
+			
+		
+			$this->load->library('unit_test');
+			$this->load->model('ion_auth_mongodb_model');		
+			
+			////////////////
+			// * TEST: Hash Password Test, This test tests whether the provided passwrod is encrypted.
+			///////////////
+			$test = $this->ion_auth_mongodb_model->hash_password('mypass', $salt=false, $use_sha1_override=FALSE);
+			echo $this->unit->run($test, 'is_string', 'Hash Password Test', 'This test tests whether the provided password is encrypted.');
+			
+			////////////////
+			// * TEST:
+			///////////////
+	/*		$test = $this->ion_auth_model->hash_password_db($id, $password, $use_sha1_override=FALSE);
+			echo $this->unit->run($test, 'expected', 'Test', 'This test tests whether notes.');
+	*/		
+			////////////////
+			// * TEST: Hash Code Test, This test tests whether a proper hash code for decrypting the password is given to match the password.
+			///////////////
+			$test = $this->ion_auth_mongodb_model->hash_code('mypass');
+			echo $this->unit->run($test, 'is_string', 'Hash Code Test', 'This test tests whether a proper hash code for decrypting the password is given to match the password.');
+			
+			////////////////
+			// * TEST: Salt Test, This test tests whether the salt function generates a random salt value.
+			///////////////
+			$test = $this->ion_auth_mongodb_model->salt();
+			echo $this->unit->run($test, 'is_string', 'Salt Test', 'This test tests whether the salt function generates a random salt value.');
+	
+			////////////////
+			// * TEST:
+			///////////////
+	/*		$test = $this->ion_auth_mongodb_model->activate($id, $code = false);
+			echo $this->unit->run($test, 'expected', 'title Test', 'This test tests whether notes.');
+/*
+			////////////////
+			// * TEST:
+			///////////////
+			$test = $this->ion_auth_mongodb_model->deactivate($id = NULL);
+			echo $this->unit->run($test, 'expected', 'title Test', 'This test tests whether notes.');
+
+			////////////////
+			// * TEST:
+			///////////////
+			$test = $this->ion_auth_mongodb_model->clear_forgotten_password_code($code);
+			echo $this->unit->run($test, 'expected', 'title Test', 'This test tests whether notes.');
+
+			////////////////
+			// * TEST:
+			///////////////
+			$test = $this->ion_auth_mongodb_model->reset_password($identity, $new);
+			echo $this->unit->run($test, 'expected', 'title Test', 'This test tests whether notes.');
+
+			////////////////
+			// * TEST:
+			///////////////
+			$test = $this->ion_auth_mongodb_model->change_password($identity, $old, $new);
+			echo $this->unit->run($test, 'expected', 'title Test', 'This test tests whether notes.');
+
+			////////////////
+			// * TEST:
+			///////////////
+			$test = $this->ion_auth_mongodb_model->username_check($username = '');
+			echo $this->unit->run($test, 'expected', 'title Test', 'This test tests whether notes.');
+
+			////////////////
+			// * TEST:
+			///////////////
+			$test = $this->ion_auth_mongodb_model->identity_check($identity = '');
+			echo $this->unit->run($test, 'expected', 'title Test', 'This test tests whether notes.');
+
+			////////////////
+			// * TEST:
+			///////////////
+			$test = $this->ion_auth_mongodb_model->forgotten_password($identity);
+			echo $this->unit->run($test, 'expected', 'title Test', 'This test tests whether notes.');
+
+			////////////////
+			// * TEST:
+			///////////////
+			$test = $this->ion_auth_mongodb_model->forgotten_password_complete($code, $salt=FALSE);
+			echo $this->unit->run($test, 'expected', 'title Test', 'This test tests whether notes.');
+
+			////////////////
+			// * TEST:
+			///////////////
+			$test = $this->ion_auth_mongodb_model->register($username, $password, $email, $additional_data = array(), $groups = array());
+			echo $this->unit->run($test, 'expected', 'title Test', 'This test tests whether notes.');
+
+			////////////////
+			// * TEST:
+			///////////////
+			$test = $this->ion_auth_mongodb_model->login($identity, $password, $remember=FALSE);
+			echo $this->unit->run($test, 'expected', 'title Test', 'This test tests whether notes.');
+
+			////////////////
+			// * TEST:
+			///////////////
+			$test = $this->ion_auth_mongodb_model->is_max_login_attempts_exceeded($identity);
+			echo $this->unit->run($test, 'expected', 'title Test', 'This test tests whether notes.');
+
+			////////////////
+			// * TEST:
+			///////////////
+			$test = $this->ion_auth_mongodb_model->get_attempts_num($identity);
+			echo $this->unit->run($test, 'expected', 'title Test', 'This test tests whether notes.');
+
+			////////////////
+			// * TEST:
+			///////////////
+			$test = $this->ion_auth_mongodb_model->is_time_locked_out($identity);
+			echo $this->unit->run($test, 'expected', 'title Test', 'This test tests whether notes.');
+
+			////////////////
+			// * TEST:
+			///////////////
+			$test = $this->ion_auth_mongodb_model->get_last_attempt_time($identity);
+			echo $this->unit->run($test, 'expected', 'title Test', 'This test tests whether notes.');
+
+			////////////////
+			// * TEST:
+			///////////////
+			$test = $this->ion_auth_mongodb_model->increase_login_attempts($identity);
+			echo $this->unit->run($test, 'expected', 'title Test', 'This test tests whether notes.');
+
+			////////////////
+			// * TEST:
+			///////////////
+			$test = $this->ion_auth_mongodb_model->clear_login_attempts($identity, $expire_period = 86400);
+			echo $this->unit->run($test, 'expected', 'title Test', 'This test tests whether notes.');
+		*/
+			////////////////
+			// * TEST:
+			///////////////
+			$test = $this->ion_auth_mongodb_model->limit($limit);
+			echo $this->unit->run($test, 'expected', 'title Test', 'This test tests whether notes.');
+
+			////////////////
+			// * TEST:
+			///////////////
+			$test = $this->ion_auth_mongodb_model->offset($offset);
+			echo $this->unit->run($test, 'expected', 'title Test', 'This test tests whether notes.');
+		/*
+			////////////////
+			// * TEST:
+			///////////////
+			$test = $this->ion_auth_mongodb_model->where($where, $value = NULL);
+			echo $this->unit->run($test, 'expected', 'title Test', 'This test tests whether notes.');
+
+			////////////////
+			// * TEST:
+			///////////////
+			$test = $this->ion_auth_mongodb_model->like($like, $value = NULL);
+			echo $this->unit->run($test, 'expected', 'title Test', 'This test tests whether notes.');
+
+			////////////////
+			// * TEST:
+			///////////////
+			$test = $this->ion_auth_mongodb_model->select($select);
+			echo $this->unit->run($test, 'expected', 'title Test', 'This test tests whether notes.');
+
+			////////////////
+			// * TEST:
+			///////////////
+			$test = $this->ion_auth_mongodb_model->order_by($by, $order='desc');
+			echo $this->unit->run($test, 'expected', 'title Test', 'This test tests whether notes.');
+
+			////////////////
+			// * TEST:
+			///////////////
+			$test = $this->ion_auth_mongodb_model->row();
+			echo $this->unit->run($test, 'expected', 'title Test', 'This test tests whether notes.');
+
+			////////////////
+			// * TEST:
+			///////////////
+			$test = $this->ion_auth_mongodb_model->row_array();
+			echo $this->unit->run($test, 'expected', 'title Test', 'This test tests whether notes.');
+
+			////////////////
+			// * TEST:
+			///////////////
+			$test = $this->ion_auth_mongodb_model->result();
+			echo $this->unit->run($test, 'expected', 'title Test', 'This test tests whether notes.');
+
+			////////////////
+			// * TEST:
+			///////////////
+			$test = $this->ion_auth_mongodb_model->result_array();
+			echo $this->unit->run($test, 'expected', 'title Test', 'This test tests whether notes.');
+
+			////////////////
+			// * TEST:
+			///////////////
+			$test = $this->ion_auth_mongodb_model->num_rows();
+			echo $this->unit->run($test, 'expected', 'title Test', 'This test tests whether notes.');
+
+			////////////////
+			// * TEST:
+			///////////////
+			$test = $this->ion_auth_mongodb_model->users($groups = NULL);
+			echo $this->unit->run($test, 'expected', 'title Test', 'This test tests whether notes.');
+
+			////////////////
+			// * TEST:
+			///////////////
+			$test = $this->ion_auth_mongodb_model->user($id = NULL);
+			echo $this->unit->run($test, 'expected', 'title Test', 'This test tests whether notes.');
+
+			////////////////
+			// * TEST:
+			///////////////
+			$test = $this->ion_auth_mongodb_model->get_users_groups($id=FALSE);
+			echo $this->unit->run($test, 'expected', 'title Test', 'This test tests whether notes.');
+
+			////////////////
+			// * TEST:
+			///////////////
+			$test = $this->ion_auth_mongodb_model->add_to_group($group_id, $user_id=false);
+			echo $this->unit->run($test, 'expected', 'title Test', 'This test tests whether notes.');
+
+			////////////////
+			// * TEST:
+			///////////////
+			$test = $this->ion_auth_mongodb_model->remove_from_group($group_ids=false, $user_id=false);
+			echo $this->unit->run($test, 'expected', 'title Test', 'This test tests whether notes.');
+
+			////////////////
+			// * TEST:
+			///////////////
+			$test = $this->ion_auth_mongodb_model->groups();
+			echo $this->unit->run($test, 'expected', 'title Test', 'This test tests whether notes.');
+
+			////////////////
+			// * TEST:
+			///////////////
+			$test = $this->ion_auth_mongodb_model->group($id = NULL);
+			echo $this->unit->run($test, 'expected', 'title Test', 'This test tests whether notes.');
+
+			////////////////
+			// * TEST:
+			///////////////
+			$test = $this->ion_auth_mongodb_model->update($id, array $data);
+			echo $this->unit->run($test, 'expected', 'title Test', 'This test tests whether notes.');
+
+			////////////////
+			// * TEST:
+			///////////////
+			$test = $this->ion_auth_mongodb_model->delete_user($id);
+			echo $this->unit->run($test, 'expected', 'title Test', 'This test tests whether notes.');
+
+			////////////////
+			// * TEST:
+			///////////////
+			$test = $this->ion_auth_mongodb_model->update_last_login($id);
+			echo $this->unit->run($test, 'expected', 'title Test', 'This test tests whether notes.');
+
+			////////////////
+			// * TEST:
+			///////////////
+			$test = $this->ion_auth_mongodb_model->set_lang($lang = 'en');
+			echo $this->unit->run($test, 'expected', 'title Test', 'This test tests whether notes.');
+
+			////////////////
+			// * TEST:
+			///////////////
+			$test = $this->ion_auth_mongodb_model->set_session($user);
+			echo $this->unit->run($test, 'expected', 'title Test', 'This test tests whether notes.');
+
+			////////////////
+			// * TEST:
+			///////////////
+			$test = $this->ion_auth_mongodb_model->remember_user($id);
+			echo $this->unit->run($test, 'expected', 'title Test', 'This test tests whether notes.');
+
+			////////////////
+			// * TEST:
+			///////////////
+			$test = $this->ion_auth_mongodb_model->login_remembered_user();
+			echo $this->unit->run($test, 'expected', 'title Test', 'This test tests whether notes.');
+
+			////////////////
+			// * TEST:
+			///////////////
+			$test = $this->ion_auth_mongodb_model->create_group($group_name = FALSE, $group_description = '', $additional_data = array());
+			echo $this->unit->run($test, 'expected', 'title Test', 'This test tests whether notes.');
+
+			////////////////
+			// * TEST:
+			///////////////
+			$test = $this->ion_auth_mongodb_model->update_group($group_id = FALSE, $group_name = FALSE, $additional_data = array());
+			echo $this->unit->run($test, 'expected', 'title Test', 'This test tests whether notes.');
+
+			////////////////
+			// * TEST:
+			///////////////
+			$test = $this->ion_auth_mongodb_model->delete_group($group_id = FALSE);
+			echo $this->unit->run($test, 'expected', 'title Test', 'This test tests whether notes.');
+
+			////////////////
+			// * TEST:
+			///////////////
+			$test = $this->ion_auth_mongodb_model->trigger_events($events);
+			echo $this->unit->run($test, 'expected', 'title Test', 'This test tests whether notes.');
+
+			////////////////
+			// * TEST:
+			///////////////
+			$test = $this->ion_auth_mongodb_model->set_message_delimiters($start_delimiter, $end_delimiter);
+			echo $this->unit->run($test, 'expected', 'title Test', 'This test tests whether notes.');
+
+			////////////////
+			// * TEST:
+			///////////////
+			$test = $this->ion_auth_mongodb_model->set_error_delimiters($start_delimiter, $end_delimiter);
+			echo $this->unit->run($test, 'expected', 'title Test', 'This test tests whether notes.');
+
+			////////////////
+			// * TEST:
+			///////////////
+			$test = $this->ion_auth_mongodb_model->set_message($message);
+			echo $this->unit->run($test, 'expected', 'title Test', 'This test tests whether notes.');
+
+			////////////////
+			// * TEST:
+			///////////////
+			$test = $this->ion_auth_mongodb_model->messages();
+			echo $this->unit->run($test, 'expected', 'title Test', 'This test tests whether notes.');
+
+			////////////////
+			// * TEST:
+			///////////////
+			$test = $this->ion_auth_mongodb_model->messages_array($langify = TRUE);
+			echo $this->unit->run($test, 'expected', 'title Test', 'This test tests whether notes.');
+
+			////////////////
+			// * TEST:
+			///////////////
+			$test = $this->ion_auth_mongodb_model->set_error($error);
+			echo $this->unit->run($test, 'expected', 'title Test', 'This test tests whether notes.');
+
+			////////////////
+			// * TEST:
+			///////////////
+			$test = $this->ion_auth_mongodb_model->errors();
+			echo $this->unit->run($test, 'expected', 'title Test', 'This test tests whether notes.');
+
+			////////////////
+			// * TEST:
+			///////////////
+			$test = $this->ion_auth_mongodb_model->errors_array($langify = TRUE);
+			echo $this->unit->run($test, 'expected', 'title Test', 'This test tests whether notes.');
+	*/
+
+	}	                                             
+}		                                            

@@ -1,0 +1,232 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video, input {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline; 
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+:focus {
+	outline: 0;
+}
+
+$f-size: 1em;
+$family: 'Open Sans', sans-serif;
+
+$bright: #fff;
+$light-grey: #ababab;
+$grey-text: #555555;
+$light-blue: #67aded;
+
+
+a, div, li {
+	transition: 0.35s;
+	&:hover {
+		transition: 0.35s;
+	}
+}
+
+body {
+	font: {
+		size: $f-size;
+		family: $family;
+	}
+	.col-1 {
+		float: none !important;
+		margin: 0 auto !important;
+		fieldset {
+			margin-bottom: 40px;
+			 legend {
+				margin-bottom: 20px;
+				color: $light-blue;
+				font: {
+					size: $f-size + 0.3em;
+					weight: 300;
+				}
+				span {
+					display: inline-block;
+					text-align: center;
+					margin-right: 6px;
+					$circumference: 36px;
+					color: $bright;
+					background-color: $light-blue;
+					height: $circumference;
+					width: $circumference;
+					border-radius: $circumference/2;
+				}
+			}
+			label {
+				opacity: 0;
+			}
+			select {
+				width: 98.5% !important;
+			}
+			.span6 input {
+				margin-top: 19px;
+				margin-bottom: 1px;
+				padding: 9px 2%;
+				width: 92%;
+				color: $grey-text;
+				font: {
+					size: $f-size - 0.1em;
+					weight: 300;
+				}
+				border: 1px solid $light-grey;
+				border-bottom: 4px solid $light-grey;
+			}
+			.span12 input {
+				margin-top: 19px;
+				margin-bottom: 1px;
+				padding: 9px 2%;
+				width: 94%;
+				color: $grey-text;
+				font: {
+					size: $f-size - 0.1em;
+					weight: 300;
+				}
+				border: 1px solid $light-grey;
+				border-bottom: 4px solid $light-grey;
+			}
+		}
+	}
+}
+/* Checkout styles */
+#checkout {
+	margin-top:40px;
+}
+#pricing {
+	width:100%;
+	margin-bottom:20px;
+}
+.sub_pricing {
+	display:inline-block;
+	width:48%;
+	text-align:center;
+}
+.pricing_separator {
+	border-left:1px solid #e2e2e2;
+	width:1%;
+	display:inline-block;
+	height:170px;
+}
+.choose_sub {
+	margin:0px auto;
+	cursor:pointer;
+	background-image:url(/wp-content/themes/ppmlayout/assets/img/radio_button.png);
+	height:28px;
+	width:28px;
+}
+.choose_sub_active {
+	margin:0px auto;
+	cursor:pointer;
+	background-image:url(/wp-content/themes/ppmlayout/assets/img/radio_button.png);
+	background-position:0px -28px;
+	height:28px;
+	width:28px;
+}
+.sub_price {
+	color: #67aded;
+	font-weight: 700;
+	font-size: 150px;
+	height: 150px;
+	line-height: 150px !important;
+}
+.sub_label {
+	font-size:25px;
+	color:#67aded;
+	font-weight:600;
+	padding:25px 0px 10px 0px;
+	height: 60px;
+	line-height: 60px !important;
+}
+.dolla_dolla_bill_yall {
+	font-size: 70px;
+	margin-top: 25px;
+	display: inline-block;
+	vertical-align: top;
+	height: 70px;
+	line-height: 70px !important;
+}
+/* CC form styling */
+#payment input,#payment select {
+	margin:10px 20px !important;
+}
+#authorize-net-cim-cc-number,#authorize-net-cim-cc-exp-month {
+	margin-left:30px !important;
+}
+/* Responsive */
+@media (max-width:1000px) {
+	.row-fluid {
+		width:100%;
+	}
+	.col-1 {
+		width:75% !important;
+	}
+}
+@media (max-width:750px) {
+	.col-1 {
+		width:90% !important;
+	}
+}
+@media (max-width:500px) {
+	.pricing_separator {
+		height:95px;
+	}
+	.span6,.span12 {
+		display:block !important;
+		width:100% !important;
+	}
+	.col-1 {
+		width:90% !important;
+	}
+	.sub_label {
+		font-size:17px;
+	}
+	.sub_price {
+		font-size:75px;
+	}
+	.dolla_dolla_bill_yall {
+		font-size:35px;
+		margin-top:10px;
+	}
+}

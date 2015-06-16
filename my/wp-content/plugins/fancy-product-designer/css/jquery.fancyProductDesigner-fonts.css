@@ -1,0 +1,32 @@
+@font-face {
+  font-family: "Carme";
+  src: local("#"), url(../fonts/Carme.woff) format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: "OpenSans";
+  src: local("#"), url(../fonts/OpenSans.woff) format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: "destroy";
+  src: local("#"), url(../fonts/destroy.woff) format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: "fearless";
+  src: local("#"), url(../fonts/fearless.woff) format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+

@@ -1,0 +1,99 @@
+/*
+ * Styling for Single Fancy Products
+ *
+*/
+
+.fancy-product h1 {
+	text-align: left;
+}
+
+.fancy-product .fpd-container  {
+	margin-bottom: 40px;
+	margin-right: 40px;
+	float: left;
+}
+
+.fancy-product .summary {
+	float: left !important;
+	width: 200px !important;
+}
+
+.woocommerce .fancy-product span.onsale {
+	top: 17px;
+	left: -17px;
+}
+
+.fancy-product .fpd-not-supported-device-info {
+	display: none;
+}
+
+/* Styling for the custom template */
+
+.fancy-product-wrapper .fpd-container {
+	float: none;
+}
+
+.fancy-product-wrapper .summary {
+	float: none !important;
+	width: auto !important;
+}
+
+
+/* Custom PHP Uploader */
+
+.fpd-php-uploader-info {
+	margin-top: 20px;
+	display: none;
+}
+
+
+.fpd-php-uploader-info > p {
+	font-size: 12px;
+}
+
+.fpd-php-uploader-info > .fpd-upload-progess-bar {
+	position: relative;
+	margin-top: 10px;
+
+}
+
+.fpd-upload-progess-bar > div {
+	position: absolute;
+	height: 5px;
+	width: 0;
+	top: 0;
+	left: 0;
+}
+
+.fpd-upload-progess-bar > .fpd-progress-bar-bg {
+	opacity: 0.5;
+	width: 100% !important;
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media (max-device-width : 480px) {
+
+	.fpd-hidden-mobile .fpd-container,
+	.fpd-hidden-mobile form.cart {
+		display: none !important;
+	}
+
+	.fancy-product.fpd-hidden-mobile .fpd-not-supported-device-info {
+		display: block;
+	}
+
+}
+
+/* iPads (portrait) ----------- */
+@media (min-device-width : 768px) and (max-device-width : 1024px) {
+
+	.fpd-hidden-tablets .fpd-container,
+	.fpd-hidden-tablets form.cart {
+		display: none !important;
+	}
+
+	.fancy-product.fpd-hidden-tablets .fpd-not-supported-device-info {
+		display: block;
+	}
+
+}

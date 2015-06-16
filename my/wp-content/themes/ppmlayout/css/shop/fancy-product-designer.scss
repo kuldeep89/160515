@@ -1,0 +1,142 @@
+.fancy-product {
+	
+	margin-top: 10px !important;
+	
+	.shop_attributes td p {
+		margin-bottom: 0px;
+	}
+	div {
+		margin-bottom: 0px !important;
+	}
+	div.price {
+		margin: 0px;
+	}
+	.summary {
+		display: block;
+		width: 100% !important;
+	}
+	.table {
+		width: auto !important;
+	}
+	.images, .posted_in {
+		display: none;
+	}
+	
+}
+
+/************************************************************
+** Product Elements
+************************************************************/
+.variations_button {
+	
+	margin-top:20px;
+	
+	.qty {
+		height: 17px;
+		margin-top: 10px;
+		background: #fff;
+	}
+	
+}
+.stock {
+	display: inline;
+}
+/************************************************************
+** Product Listing
+************************************************************/
+.products {
+	
+	.product {
+		
+		width: 250px;
+		float: left !important;
+		clear: none !important;
+		margin: 0px 20px 20px 10px;
+		
+		a {
+			
+			h3 {
+				font-size: 1.1em !important;
+				line-height: 1.4em !important;
+				font-weight: bold;
+				display: block !important;
+				clear: left;
+			}
+			
+			color: #333;
+			
+		}
+		
+		.image-thumb {
+			width: 250px;
+			height: 250px;
+			display: block;
+			background-color: #ccc;
+			background-repeat: no-repeat;
+			background-position: center center;
+			-webkit-background-size: cover;
+			-moz-background-size: cover;
+			-o-background-size: cover;
+			background-size: cover;
+		}
+			
+	}
+	
+}
+
+/************************************************************
+** Category Listing
+************************************************************/
+#product-categories {
+	
+	.product-category {
+		
+		width: 250px;
+		float: left !important;
+		clear: none !important;
+		margin: 0px 0px 20px 30px;
+		
+		.image-thumb {
+			width: 250px;
+			height: 250px;
+			display: block;
+			background: #ccc;
+			background-repeat: no-repeat;
+			background-position: center center;
+			-webkit-background-size: cover;
+			-moz-background-size: cover;
+			-o-background-size: cover;
+			background-size: cover;
+		}
+		
+		h3 {
+			font-size: 1.1em !important;
+			line-height: 1.4em !important;
+			font-weight: bold;
+			display: block !important;
+			clear: left;
+		}
+		h3 a {
+			color: #333b4e;
+		}
+	}
+	
+}
+
+/************************************************************
+** View Cart Button
+************************************************************/
+.view-cart-button {
+	float:right;
+	margin-top:20px;
+	color:#fff !important;
+	background:#4d90fe;
+	padding:17px 15px;
+	font-weight:bold;
+	text-decoration:none;
+	font-size:14px;
+}
+.view-cart-button:hover {
+	background: #0362fd !important;
+	text-decoration:none;
+}

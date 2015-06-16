@@ -1,0 +1,46 @@
+@font-face {
+	font-family: "Verlag Black";
+	src: url(fonts/Verlag-Black.otf);
+	src: local("Verlag Black"), url(fonts/Verlag-Black.otf) format("opentype");
+}
+@font-face {
+	font-family: "Verlag Black Italic";
+	src: url(fonts/Verlag-BlackItalic.otf);
+	src: local("Verlag Black Italic"), url(fonts/Verlag-BlackItalic.otf) format("opentype");
+}@font-face {
+	font-family: "Verlag Bold";
+	src: url(fonts/Verlag-Bold.otf);
+	src: local("Verlag Bold"), url(fonts/Verlag-Bold.otf) format("opentype");
+}@font-face {
+	font-family: "Verlag Bold Italic";
+	src: url(fonts/Verlag-BoldItalic.otf);
+	src: local("Verlag Bold Italic"), url(fonts/Verlag-BoldItalic.otf) format("opentype");
+}@font-face {
+	font-family: "Verlag Book";
+	src: url(fonts/Verlag-Book.otf);
+	src: local("Verlag Book"), url(fonts/Verlag-Book.otf) format("opentype");
+}@font-face {
+	font-family: "Verlag BookItalic";
+	src: url(fonts/Verlag-BookItalic.otf);
+	src: local("Verlag BookItalic"), url(fonts/Verlag-BookItalic.otf) format("opentype");
+}@font-face {
+	font-family: "Verlag Light";
+	src: url(fonts/Verlag-Light.otf);
+	src: local("Verlag Light"), url(fonts/Verlag-Light.otf) format("opentype");
+}@font-face {
+	font-family: "Verlag Light Italic";
+	src: url(fonts/Verlag-LightItalic.otf);
+	src: local("Verlag Light Italic"), url(fonts/Verlag-LightItalic.otf) format("opentype");
+}@font-face {
+	font-family: "Verlag XLight";
+	src: url(fonts/Verlag-XLight.otf);
+	src: local("Verlag XLight"), url(fonts/Verlag-XLight.otf) format("opentype");
+}@font-face {
+	font-family: "Verlag XLight Italic";
+	src: url(fonts/Verlag-XLightItalic.otf);
+	src: local("Verlag XLight Italic"), url(fonts/Verlag-XLightItalic.otf) format("opentype");
+}
+
+
+
+http://local.dev.saltsha.com/wp-content/themes/ppmlayout/fonts/Verlag-Black.otf

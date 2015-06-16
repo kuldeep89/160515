@@ -1,0 +1,42 @@
+@font-face {
+	font-family: "Verlag Black";
+	src: url(../../../fonts/maintenance_mode/Verlag-Black.otf);
+	src: local("Verlag Black"), url(../../../fonts/maintenance_mode/Verlag-Black.otf) format("opentype");
+}
+@font-face {
+	font-family: "Verlag Black Italic";
+	src: url(../../../fonts/maintenance_mode/Verlag-BlackItalic.otf);
+	src: local("Verlag Black Italic"), url(../../../fonts/maintenance_mode/Verlag-BlackItalic.otf) format("opentype");
+}@font-face {
+	font-family: "Verlag Bold";
+	src: url(../../../fonts/maintenance_mode/Verlag-Bold.otf);
+	src: local("Verlag Bold"), url(../../../fonts/maintenance_mode/Verlag-Bold.otf) format("opentype");
+}@font-face {
+	font-family: "Verlag Bold Italic";
+	src: url(../../../fonts/maintenance_mode/Verlag-BoldItalic.otf);
+	src: local("Verlag Bold Italic"), url(../../../fonts/maintenance_mode/Verlag-BoldItalic.otf) format("opentype");
+}@font-face {
+	font-family: "Verlag Book";
+	src: url(../../../fonts/maintenance_mode/Verlag-Book.otf);
+	src: local("Verlag Book"), url(../../../fonts/maintenance_mode/Verlag-Book.otf) format("opentype");
+}@font-face {
+	font-family: "Verlag BookItalic";
+	src: url(../../../fonts/maintenance_mode/Verlag-BookItalic.otf);
+	src: local("Verlag BookItalic"), url(../../../fonts/maintenance_mode/Verlag-BookItalic.otf) format("opentype");
+}@font-face {
+	font-family: "Verlag Light";
+	src: url(../../../fonts/maintenance_mode/Verlag-Light.otf);
+	src: local("Verlag Light"), url(../../../fonts/maintenance_mode/Verlag-Light.otf) format("opentype");
+}@font-face {
+	font-family: "Verlag Light Italic";
+	src: url(../../../fonts/maintenance_mode/Verlag-LightItalic.otf);
+	src: local("Verlag Light Italic"), url(../../../fonts/maintenance_mode/Verlag-LightItalic.otf) format("opentype");
+}@font-face {
+	font-family: "Verlag XLight";
+	src: url(../../../fonts/maintenance_mode/Verlag-XLight.otf);
+	src: local("Verlag XLight"), url(../../../fonts/maintenance_mode/Verlag-XLight.otf) format("opentype");
+}@font-face {
+	font-family: "Verlag XLight Italic";
+	src: url(../../../fonts/maintenance_mode/Verlag-XLightItalic.otf);
+	src: local("Verlag XLight Italic"), url(../../../fonts/maintenance_mode/Verlag-XLightItalic.otf) format("opentype");
+}

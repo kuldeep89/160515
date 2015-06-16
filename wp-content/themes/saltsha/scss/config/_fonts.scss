@@ -1,0 +1,42 @@
+/* 
+ * Verlag
+ */
+
+@font-face {
+    font-family: 'Verlag';
+    src: url('../assets/fonts/Verlag/verlag-book-webfont.eot');
+    src: url('../assets/fonts/Verlag/verlag-book-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../assets/fonts/Verlag/verlag-book-webfont.woff2') format('woff2'),
+         url('../assets/fonts/Verlag/verlag-book-webfont.woff') format('woff'),
+         url('../assets/fonts/Verlag/verlag-book-webfont.ttf') format('truetype'),
+         url('../assets/fonts/Verlag/verlag-book-webfont.svg#verlagbook') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+ 
+@font-face {
+    font-family: 'Verlag';
+    src: url('../assets/fonts/Verlag/verlag-bold-webfont.eot');
+    src: url('../assets/fonts/Verlag/verlag-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../assets/fonts/Verlag/verlag-bold-webfont.woff2') format('woff2'),
+         url('../assets/fonts/Verlag/verlag-bold-webfont.woff') format('woff'),
+         url('../assets/fonts/Verlag/verlag-bold-webfont.ttf') format('truetype'),
+         url('../assets/fonts/Verlag/verlag-bold-webfont.svg#verlagbold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Verlag';
+    src: url('../assets/fonts/Verlag/verlag-black-webfont.eot');
+    src: url('../assets/fonts/Verlag/verlag-black-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../assets/fonts/Verlag/verlag-black-webfont.woff2') format('woff2'),
+         url('../assets/fonts/Verlag/verlag-black-webfont.woff') format('woff'),
+         url('../assets/fonts/Verlag/verlag-black-webfont.ttf') format('truetype'),
+         url('../assets/fonts/Verlag/verlag-black-webfont.svg#verlagblack') format('svg');
+    font-weight: bolder;
+    font-style: normal;
+
+}

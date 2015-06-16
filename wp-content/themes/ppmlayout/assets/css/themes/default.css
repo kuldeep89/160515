@@ -1,0 +1,263 @@
+/***
+default theme
+***/
+
+/***
+Reset and overrides  
+***/
+body { 
+  background-color: #333b4e !important;
+}
+
+/** REGISTRATION BUTTON **/
+.registration-green {
+	background-color: #5cd562 !important;
+	color: #fff !important;
+	text-decoration: none !important;
+	text-shadow: none !important;
+	padding: 6px 80px !important;
+	margin: 18px 0px 0px 60px !important;
+}
+.registration-green:hover {
+	background-color: #5cd562 !important;
+}
+
+/***
+Page header
+***/
+.header .navbar-inner {
+  filter:none !important;
+  background-image: none !important;
+  background-color: #67aced !important;
+}
+
+.header .btn-navbar {  
+  background-color: #1f1f1f !important;
+} 
+
+.header .nav .dropdown-toggle:hover, 
+.header .nav .dropdown.open .dropdown-toggle {
+  background-color: #333B4E !important;
+}
+
+.header .nav li.dropdown .dropdown-toggle i {
+  color: #808080 !important;
+}
+.dropdown-menu {
+	background-color: #333B4E;
+	border-width: 0;
+}
+.dropdown-menu li:first-child {
+	border-bottom: 1px solid #3d495f;	
+}
+.dropdown-menu li > a {
+	color: #fff;
+}
+.dropdown-menu li > a:hover {
+	color: #fff;
+	background-color: #67aced;
+}
+.saltsha-account-profile {
+	background-position: -3px -200px;
+	height: 14px;
+}
+.saltsha-account-log {
+	background-position: -21px -200px;	
+	height: 14px;
+}
+
+/***
+Page sidebar
+***/
+.page-sidebar > ul > li > a {
+  color: #fff !important;
+}
+
+.page-sidebar > ul > li a i {
+   color: #fff;
+}
+.page-sidebar > ul > li.open a i {
+   color: #67aced !important;
+}
+.page-sidebar > ul > li a:hover i {
+   color: #67aced !important;
+}
+body .page-container .page-sidebar > ul > li.active > a:hover, body .page-container .page-sidebar > ul > li.current_page_item > a:hover, body .page-container .page-sidebar > ul > li.current-menu-parent > a:hover {
+	color: #fff !important;
+}
+body .page-container .page-sidebar > ul > li.active > a i, body .page-container .page-sidebar > ul > li.current_page_item > a i, body .page-container .page-sidebar > ul > li.current-menu-parent > a i {
+	color: #fff !important;
+}
+body .container-fluid {
+	margin: 0px !important;
+}
+.page-sidebar > ul > li.open > a, 
+.page-sidebar > ul > li >a:hover, 
+.page-sidebar > ul > li:hover >a {  
+  background: #fff;
+  color: #000 !important;
+}
+
+.page-sidebar > ul > li.active > a {
+  background: #e02222 !important;  
+  border-top-color: transparent !important;
+  color:#fff;
+}  
+
+.page-sidebar > ul > li.active > a i {
+  color:#67aced !important;
+}
+
+.page-sidebar > ul > li > a.open {
+  background: #313131;
+}
+
+.page-sidebar ul > li > a > .arrow:before,
+.page-sidebar > ul > li > a > .arrow.open:before {  
+   color: #919091 !important;
+}
+
+.page-sidebar ul > li.active > a .arrow:before,
+.page-sidebar > ul > li.active > a .arrow.open:before {  
+   color: #fff !important;
+}
+
+.page-sidebar > ul > li > ul.sub-menu > li > a {
+  margin-left:0px;  
+  padding-left: 5px; 
+}
+
+.page-sidebar > ul > li > ul.sub-menu > li:first-child > a {
+  border-top: 0px !important;
+}
+
+.page-sidebar > ul > li > ul.sub-menu > li.active > a, 
+.page-sidebar > ul > li > ul.sub-menu > li > a:hover {
+  color: #444 !important;
+  background: #ececec !important;  
+}
+
+.page-sidebar > ul > li > ul.sub-menu > li > a:hover {
+  background: #fff !important;
+}
+
+/* 3rd level sub menu */
+.page-sidebar > ul > li > ul.sub-menu  li > ul.sub-menu > li.active > a, 
+.page-sidebar > ul > li > ul.sub-menu  li > ul.sub-menu > li > a:hover,
+.page-sidebar > ul > li > ul.sub-menu  li.open > a  {
+  color: #fff !important;
+  background: #333b4e !important;  
+}
+
+.page-sidebar > ul > li > ul.sub-menu  a .arrow:before,
+.page-sidebar > ul > li > ul.sub-menu  a .arrow.open:before {  
+   color: #626262 !important;
+}
+
+/* sidebar search */
+.page-sidebar .sidebar-search input{
+  background-color: #333b4e  !important;  
+  color: #67aced !important;
+}
+.page-sidebar .sidebar-search input::-webkit-input-placeholder {
+   color: #67aced !important;
+}
+.page-sidebar .sidebar-search input:-moz-placeholder { /* Firefox 18- */
+   color: #67aced !important; 
+}
+.page-sidebar .sidebar-search input::-moz-placeholder {  /* Firefox 19+ */
+   color: #67aced !important; 
+}
+.page-sidebar .sidebar-search input:-ms-input-placeholder {  
+   color: #67aced !important;
+}
+
+.page-sidebar .sidebar-search .input-box {
+  border-bottom-color: #9babc4 !important;
+}
+
+.page-sidebar .sidebar-search .submit {
+  background-image: url('/wp-content/themes/ppmlayout/assets/img/search-icon.png');
+}
+
+/***
+Sidebar toggler
+***/
+.sidebar-toggler {  
+  background-image: url('/wp-content/themes/ppmlayout/assets/img/sidebar-toggler.png');
+  background-color: #67aef0 !important;
+}
+
+/* search box bg color on expanded */
+.sidebar-closed .page-sidebar .sidebar-search.open {
+  background-color: #3d3d3d !important;
+}
+
+.sidebar-closed .page-sidebar .sidebar-search.open .remove {  
+  background-image: url('/wp-content/themes/ppmlayout/assets/img/sidebar-search-close.png');
+}
+
+/* sub menu bg color on hover menu item */
+.sidebar-closed .page-sidebar > ul > li:hover .sub-menu {
+  background-color: #3d3d3d;
+}
+
+/***
+Horizontal Menu(new in v1.2)
+***/
+
+/*search*/
+
+.header .hor-menu .hor-menu-search-form-toggler.hide {
+  background: #101010 url('/wp-content/themes/ppmlayout/assets/img/hor-menu-search-close.png') no-repeat center;
+}
+
+.header .hor-menu .search-form {
+  background:#101010;
+}
+
+.header .hor-menu .search-form .btn {
+  color: #999;
+  background: #2d2d2d url('/wp-content/themes/ppmlayout/assets/img/search-icon.png') no-repeat center;
+}
+
+.header .hor-menu .search-form form input {
+  color: #999;
+}
+
+.header .hor-menu .search-form form input::-webkit-input-placeholder { /* WebKit browsers */
+    color: #999;
+}
+.header .hor-menu .search-form form input:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color: #999;
+}
+.header .hor-menu .search-form form input::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color: #999;
+}
+.header .hor-menu .search-form form input:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color: #999;
+}
+
+/***
+Landscape phone to portrait tablet
+***/
+@media (max-width:979px) { 
+  /***
+  page sidebar
+  ***/
+  .page-sidebar {
+    background-color: #232427 !important;
+  }
+
+  .page-sidebar > ul > li > a {
+    border-top: 1px solid #2c2d30 !important;
+  }
+
+  .page-sidebar > ul > li:last-child > a {
+    border-bottom: 0 !important;
+  }
+
+  .page-sidebar .sidebar-search input{
+    background-color: #232427  !important;  
+  }
+}

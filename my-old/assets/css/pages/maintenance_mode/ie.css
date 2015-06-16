@@ -1,0 +1,8 @@
+#subscribe, #email_address {
+	background-color: transparent\9; /* clear current background for ie */
+	zoom:1; /* required for the filters */
+	/* For IE 5.5 - 7*/
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#77FFFFFF, endColorstr=#77FFFFFF);
+	/* For IE 8*/
+	-ms-filter:"progid:DXImageTransform.Microsoft.gradient(startColorstr=#77FFFFFF, endColorstr=#77FFFFFF)";
+}

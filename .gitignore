@@ -1,0 +1,7 @@
+.htaccess
+.DS_Store
+/wp-content/ewww/*
+wp-content/plugins/transactional-data/uploads/*
+wp-content/plugins/transactional-data/uploads_backup/*
+wp-content/themes/ppmlayout/.sass-cache/*
+*.scssc

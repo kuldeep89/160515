@@ -1,0 +1,1 @@
+(function(e,t){var n=e.createElement(t),r=e.getElementsByTagName(t)[0];n.type="text/javascript";n.src="//www.bugherd.com/sidebarv2.js?apikey=ee90xbtjjlpjvu1hyr3zcw";r.parentNode.insertBefore(n,r)})(document,"script")

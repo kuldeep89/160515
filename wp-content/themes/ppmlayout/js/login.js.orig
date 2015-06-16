@@ -1,0 +1,422 @@
+<<<<<<< HEAD
+var postLocation = location.protocol+'//local.my'+location.hostname.replace('local', '');
+
+$( document ).ready(function() {
+    $( "#signup" ).click(function( event ) {
+		
+			$("#myLogin").hide(); 
+			$("#myRegister").show();
+			$('.register').removeClass( "active" )
+			$('.login').addClass( "active" );
+    });
+});
+
+
+function handleLoginAttempt( response_type, response_message ) {
+	
+	if( response_type == 'failed' ) {
+		
+		$('.error-messages').html(response_message);
+		toggleLogin();
+		
+	}
+	else if( response_type == 'success' ) {
+		
+		if( response_message == 'ADMIN' ) {
+			window.location = postLocation+'/wp-admin/';
+		}
+		else if( response_message == 'NOTADMIN' ) {
+			window.location = postLocation;
+		}
+		
+	}
+	
+}
+function handleResetAttempt( response_type, response_message ) {
+	
+	if( response_type == 'failed' ) {
+		
+		$('.error-messages').html(response_message);
+		toggleLogin();
+		
+	}
+	else if( response_type == 'success' ) {
+		$('.success-messages').html(response_message);
+		toggleLogin();
+	}
+	
+}
+=======
+(function($,W,D) {
+
+
+	var JQUERYreset = {};
+
+    JQUERYreset.UTIL = { setupFormValidation: function() {
+            
+            //form validation rules
+            $('#reset-form').validate({
+                rules: {
+                   email_address: {
+                        required: true,
+                        email: true                    
+                   },
+                },
+                messages: {
+                	email: {
+                    	email: 'Please enter a valid email address.'
+					}
+                },
+                submitHandler: function(form) {
+                    form.submit();
+                }
+            });
+        }
+    }
+
+    var JQUERYlogin = {};
+
+    JQUERYlogin.UTIL = { setupFormValidation: function() {
+    
+            //form validation rules
+            $('#login-form').validate({
+				rules: {
+                    log: 'required',
+
+                    pwd: {
+                        required: true,
+                        minlength: 5
+                    }
+                },
+                messages: {
+                    log: 'Please Enter Your Username or Email.',
+                    
+                    pwd: {
+                        required: 'Please provide a password.',
+                        minlength: 'Your password must be at least 5 characters long.'
+                    }
+                }
+            });
+        }
+    }
+
+    var JQUERYregister = {};
+
+    JQUERYregister.UTIL = { setupFormValidation: function() {
+    
+            //form validation rules
+            $('#register-form').validate({
+                rules: {
+                    user_login: 'required',
+                    user_email: {
+                        required: true,
+                        email: true
+                    },
+                    password: {
+                        required: true,
+                         minlength: 5
+                    },
+                    repeat_password: {
+                        equalTo: '#pass1'
+                    }
+                },
+                messages: {
+                    user_login: 'Please enter a username.',
+                    user_email: 'Please enter a valid email address.',
+                    password: {
+                        required: 'Please provide a password.',
+                        minlength: 'Your password must be at least 5 characters long.'
+                    },
+                    password: {
+                        required: 'Please provide a password.',
+                        minlength: 'Your password must be at least 5 characters long.'
+                    },
+                    repeat_password: {
+                        equalTo: 'Paswords Don\'t Match.'
+                    },
+                }
+            });
+        }
+    }
+
+    //when the dom has loaded setup form validation rules
+    $(D).ready(function($) {
+    	JQUERYlogin.UTIL.setupFormValidation();
+        JQUERYregister.UTIL.setupFormValidation();
+        JQUERYreset.UTIL.setupFormValidation();
+    });
+
+})(jQuery, window, document);
+
+>>>>>>> 27bc1ddcba4ede9c03ba473883ee4b84edf9deee
+
+jQuery(document).ready(function () {
+	
+	$('.modal-body > a').click(function() {
+		var selectedButton = $(this);
+		var displayElement = $(this).data('target');
+		var modalHeight = $(displayElement).height();
+		
+		$('.modal-body > div').animate({height:modalHeight});
+		$('.modal-body > div > div').not(displayElement).fadeOut(400, function() {
+			$(displayElement).fadeIn(600);
+			
+		});
+		$(selectedButton).fadeOut(400, function() {
+			$('.modal-body > a').not(this).fadeIn(600);
+		});
+	});
+	
+	
+	var registrationPopup = function() {
+		$('.modal-body > div').css('height', '358');
+		$('#myLogin').css('display', 'none');
+		$('#myReset').css('display', 'none');
+		$('#myRegister').css('display', 'block');
+		$('.register').removeClass('active');
+		$('.login').addClass('active');
+	};
+	
+	$('.menu li a[title=log-in]').click(function() {
+		if (menuItemContent == 'Sign Up') {
+			var menuItemContent = $(this).text();
+			
+			registrationPopup();
+		};
+	});
+	
+	$('.signUpButton a').click(function() {
+		registrationPopup();
+	});
+
+
+<<<<<<< HEAD
+});
+
+(function($,W,D)
+{
+    var JQUERYreset = {};
+
+    JQUERYreset.UTIL =
+    {
+        setupFormValidation: function()
+        {
+            //form validation rules
+            $("#reset-form").validate({
+                rules: {
+                   email: {
+                        required: true,
+                        email: true
+                    }
+                 },
+                messages: {
+                    email: "Please enter a valid email address"
+                   
+                },  
+                submitHandler: function(form) {  
+                    console.log('test');
+                    
+	              email=$('#email').val();
+		
+				  // Disable user/pass boxes, make full width login, hide forgot password
+				  $('button,input').attr('disabled', 'disabled');
+				  $('#reset-button').hide();
+				  $('#login-submit').css('width', '239px');
+				  $('#login-submit').html('Logging In...');
+				  
+				  var loginAPI = postLocation+'/reset-password/?email='+email+'&callback=?';
+				  $.getJSON( loginAPI, {
+				  	crossDomain: true,
+				    format: "json",
+				    jsonpCallback: handleResetAttempt
+				  })
+
+                }
+            });
+        }
+    }
+
+    //when the dom has loaded setup form validation rules
+    $(D).ready(function($) {
+        JQUERYreset.UTIL.setupFormValidation();
+    });
+
+})(jQuery, window, document);
+
+(function($,W,D)
+{
+    var JQUERYlogin = {};
+
+    JQUERYlogin.UTIL =
+    {
+        setupFormValidation: function()
+        {
+            //form validation rules
+            $("#login-form").validate({
+				rules: {
+                    log: "required",
+                    pwd: {
+                        required: true,
+                        minlength: 5
+                    }
+                },
+                messages: {
+					log: "Please provide a username or email",                   
+                    pwd: {
+                        required: "Please provide a password",
+                        minlength: "Your password must be at least 5 characters long"
+                    }
+                    },  
+                submitHandler: function(form) {  
+			  
+			  console.log('test');
+			
+			  username=$('#log').val();
+			  password=$('#pwd').val();
+	
+			  // Disable user/pass boxes, make full width login, hide forgot password
+			  $('button,input').attr('disabled', 'disabled');
+			  $('#reset-button').hide();
+			  $('#login-submit').css('width', '239px');
+			  $('#login-submit').html('Logging In...');
+			  
+			  var loginAPI = postLocation+'/ajax-login/?log='+username+'&pwd='+password+'&callback=?';
+			  $.getJSON( loginAPI, {
+			  	crossDomain: true,
+			    format: "json",
+			    jsonpCallback: handleLoginAttempt
+			  })
+
+
+
+                }
+               
+            });
+        }
+    }
+
+    //when the dom has loaded setup form validation rules
+    $(D).ready(function($) {
+        JQUERYlogin.UTIL.setupFormValidation();
+    });
+
+})(jQuery, window, document);
+
+=======
+    var postLocation = 'http://local.my.'+location.hostname.replace('local.','');
+    
+	$('#login-form').submit(function(e){
+
+	 	  e.preventDefault();
+
+		  username=$('#log').val();
+		  password=$('#pwd').val();
+
+		  // Disable user/pass boxes, make full width login, hide forgot password
+		  $('button,input').attr('disabled', 'disabled');
+		  $('#reset-button').hide();
+		  $('#login-submit').css('width', '239px');
+		  $('#login-submit').html('Logging In...');
+
+		  $.ajax({
+			
+			type: 'POST',
+			// url: postLocation+'/ajax-login/',
+			url: 'http://local.my.dev.paypromedia.com/ajax-login-public/',
+			dataType: 'jsonp',
+			crossDomain: true,
+			jsonpCallback: 'loginCallback',
+			data: 'log='+username+'&pwd='+password,
+			success: function(response){
+				console.log('SUCCESS: '+JSON.stringify(response));
+				switch( response.response_type ) {
+					case 'login_error':
+						$('.error-messages').html(response.error_message);
+						toggleLogin();
+					break;
+					
+					case 'login_success':
+						if( response.user_type == 'ADMIN' ) {
+							window.location = postLocation+'/wp-admin/';
+						} else {
+							window.location = postLocation;
+						}
+					break;
+				}
+			}
+		});
+		
+		return false;
+	});
+	function loginCallback(response) {
+		alert('This isn\'t working very well!');
+		// $('.error-messages').html(response.error_message);
+		// window.location = postLocation+'/wp-admin';
+		console.log('ERROR: '+response);
+		toggleLogin();
+	}
+
+	
+	$('#register-form').submit(function(e) {
+	
+		e.preventDefault();
+		
+		toggleRegister();
+
+		username	= $('#user_login').val();
+		password	= $('#pass1').val();
+		email	= $('#user_email').val();
+		
+		$.ajax({
+			
+			type: 'POST',
+			url: postLocation+'/create-account/',
+			dataType: 'jsonp',
+			crossDomain: true,
+			data: 'username='+username+'&password='+password+'&email='+email,
+			success: function(response){
+				
+				switch( response.response_type ) {			
+					case 'error':
+						$('.error-messages-register').html(response.message);
+						toggleRegister();
+					break;
+					
+					case 'success':
+						window.location = '/';
+						toggleRegister();
+					break;		
+				}	
+			},
+			error: function( response ) {
+				$('.error-messages-register').html('Error handling server response: '+response.responseText);
+				toggleRegister();
+			}  
+		});	
+	});	
+});
+
+>>>>>>> 27bc1ddcba4ede9c03ba473883ee4b84edf9deee
+function toggleLogin() {
+	if ($('#reset-button').is(':visible')) {
+		$('button,input').attr('disabled', 'disabled');
+		$('#reset-button').hide();
+		$('#login-submit').css('width', '239px');
+		$('#login-submit').html('Logging In...');
+	} else {
+		$('button,input').removeAttr('disabled');
+		$('#reset-button').show();
+		$('#login-submit').css('width', 'auto');
+		$('#login-submit').html('Login <i class="m-icon-swapright m-icon-white"></i>');
+	}
+}
+
+function toggleRegister() {
+	if ($('#register-form button').html() != 'Registering...') {
+		$('#reset-button,button,input').attr('disabled', 'disabled');
+		$('#register-form button').html('Registering...');
+	} else {
+		$('#reset-button,button,input').removeAttr('disabled');
+		$('#register-form button').html('Register <i class="m-icon-swapright m-icon-white"></i>');
+	}
+}

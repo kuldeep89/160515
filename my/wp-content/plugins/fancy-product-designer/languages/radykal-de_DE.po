@@ -1,0 +1,1658 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Fancy Product Designer - WooCommerce plugin\n"
+"POT-Creation-Date: 2014-01-27 11:19+0100\n"
+"PO-Revision-Date: 2014-01-27 11:19+0100\n"
+"Last-Translator: Rafael Dery <webmaster@radykal.de>\n"
+"Language-Team: radykal\n"
+"Language: German\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-KeywordsList: _;__;_e;_x\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: ..\n"
+
+#: ../fancy-product-designer.php:108 ../fancy-product-designer.php:118
+msgid "Fancy Design Categories"
+msgstr "Kategorien"
+
+#: ../fancy-product-designer.php:109
+msgid "Fancy Design Category"
+msgstr "Fancy Motivkategorie"
+
+#: ../fancy-product-designer.php:110
+msgid "Search Design Categories"
+msgstr "Suche Motivkategorien"
+
+#: ../fancy-product-designer.php:111
+msgid "All Design Categories"
+msgstr "Alle Motivkategorien"
+
+#: ../fancy-product-designer.php:112
+msgid "Parent Design Category"
+msgstr "Übergeordnete Motivkategorie"
+
+#: ../fancy-product-designer.php:113
+msgid "Parent Design Category:"
+msgstr "Übergeordnete Motivkategorie:"
+
+#: ../fancy-product-designer.php:114
+msgid "Edit Design Category"
+msgstr "Motivkategorie bearbeiten"
+
+#: ../fancy-product-designer.php:115
+msgid "Update Design Category"
+msgstr "Motivkategorie aktualisieren"
+
+#: ../fancy-product-designer.php:116
+msgid "Add New Design Category"
+msgstr "Neue Motivkategorie hinzufügen"
+
+#: ../fancy-product-designer.php:117
+msgid "New Design Category Name"
+msgstr "Neuer Motivkategoriename"
+
+#: ../fancy-product-designer.php:316
+msgid "Sorry, but the cart item could not be found!"
+msgstr ""
+"Entschuldigung, Aber der Warenkorbartikel konnte nicht gefunden werden!"
+
+#: ../fancy-product-designer.php:561 ../fancy-product-designer.php:566
+msgid "Server error: Image could not be uploaded, please try again!"
+msgstr ""
+"Serverfehler: Bild konnte nicht hochgeladen werden, bitte versuche es noch "
+"einmal!"
+
+#: ../fancy-product-designer.php:715
+msgid "Customized Product"
+msgstr "Angepasstes Produkt"
+
+#: ../fancy-product-designer.php:716 ../admin/admin.php:1232
+msgid "Edit"
+msgstr "Bearbeiten"
+
+#: ../fancy-product-designer.php:915
+msgid "File is not an image!"
+msgstr "Datei ist kein Bild!"
+
+#: ../fancy-product-designer.php:927
+#, php-format
+msgid "Uploaded image is too big! Maximum image size is %d MB!"
+msgstr "Hochgeladendes Bild ist zu gross! Maximale Bildgrösse ist %d MB!"
+
+#: ../fancy-product-designer.php:1246
+msgid "The uploaded file exceeds the upload_max_filesize directive in php.ini"
+msgstr ""
+"Die hochgeladende Datei überschreitet die upload_max_filesize  Direktive in "
+"php.ini"
+
+#: ../fancy-product-designer.php:1248
+msgid ""
+"The uploaded file exceeds the MAX_FILE_SIZE directive that was specified in "
+"the HTML form"
+msgstr ""
+"Die hochgeladende Datei überschreitet die MAX_FILE_SIZE Direktive die im "
+"HTML Formular festgelegt wurde"
+
+#: ../fancy-product-designer.php:1250
+msgid "The uploaded file was only partially uploaded"
+msgstr "Die hochgeladene Datei wurde nur teilweise hochgeladen"
+
+#: ../fancy-product-designer.php:1252
+msgid "No file was uploaded"
+msgstr "Keine Datei wurde hochgeladen"
+
+#: ../fancy-product-designer.php:1254
+msgid "Missing a temporary folder"
+msgstr "Ein temporärer Ordner fehlt"
+
+#: ../fancy-product-designer.php:1256
+msgid "Failed to write file to disk"
+msgstr "Schreibfehler"
+
+#: ../fancy-product-designer.php:1258
+msgid "File upload stopped by extension"
+msgstr "Dateiupload wurde gestoppt"
+
+#: ../fancy-product-designer.php:1260
+msgid "Unknown upload error"
+msgstr "Unbekannter Uploadfehler"
+
+#: ../fancy-product-designer.php:1287
+msgid ""
+"Please activate the woocommerce plugin, otherwise you can not use Fancy "
+"Product Designer for woocommerce!"
+msgstr ""
+"Bitte aktivieren das woocommerce Plugin, sonst kannst du Fancy Product "
+"Designer für woocommerce nicht nutzen!"
+
+#: ../admin/admin.php:74 ../admin/admin.php:75
+msgid "Fancy Products"
+msgstr "Fancy Produkte"
+
+#: ../admin/admin.php:84 ../admin/manage-designs.php:2
+msgid "Manage Fancy Designs"
+msgstr "Fancy Motive verwalten"
+
+#: ../admin/admin.php:85
+msgid "Fancy Designs"
+msgstr "Fancy Motive"
+
+#: ../admin/admin.php:190 ../admin/admin.php:202 ../admin/admin.php:533
+msgid "Fancy Product"
+msgstr "Fancy Produkt"
+
+#: ../admin/admin.php:191
+msgid "A product for the Fancy Product Designer?"
+msgstr "Ein Produkt für den Fancy Product Designer?"
+
+#: ../admin/admin.php:229
+msgid "Add View"
+msgstr "Ansicht hinzufügen"
+
+#: ../admin/admin.php:266
+msgid "Enter a title for the view:"
+msgstr "Gib einen Titel für die Ansicht ein:"
+
+#: ../admin/admin.php:271 ../admin/edit-fancy-products.php:276
+msgid "Please enter a title!"
+msgstr "Bitte gebe einen Titel ein!"
+
+#: ../admin/admin.php:285 ../admin/admin.php:287
+msgid "Choose a view thumbnail"
+msgstr "Wähle ein Ansichtsvorschaubild"
+
+#: ../admin/admin.php:311
+msgid "Could not change view. Please try again"
+msgstr "Ansicht konnte nicht geändert werden. Bitte versuche es noch einmal"
+
+#: ../admin/admin.php:328
+msgid "Could not create view. Please try again"
+msgstr "Ansicht konnte nicht erstellt werden. Bitte versuche es noch einmal"
+
+#: ../admin/admin.php:350
+msgid "Remove this view?"
+msgstr "Entferne dieser Ansicht?"
+
+#: ../admin/admin.php:360
+msgid "Could not delete view. Please try again"
+msgstr "Ansicht konnte nicht gelöscht werden. Bitte versuche es noch einmal"
+
+#: ../admin/admin.php:402
+msgid "Fancy Product Designer"
+msgstr "Fancy Product Designer"
+
+#: ../admin/admin.php:416
+msgid "General"
+msgstr "Allgemein"
+
+#: ../admin/admin.php:417
+msgid "Default Parameters"
+msgstr "Voreingestellte Parameter"
+
+#: ../admin/admin.php:418
+msgid "Labels"
+msgstr "Bezeichnungen"
+
+#: ../admin/admin.php:419
+msgid "Fonts"
+msgstr "Schriften"
+
+#: ../admin/admin.php:501
+msgid "Styles"
+msgstr "Styles"
+
+#: ../admin/admin.php:505
+msgid "Primary"
+msgstr "Primäre"
+
+#: ../admin/admin.php:505
+msgid "Sidebar Navigation, Product Stage Header"
+msgstr "Seitenleiste Navigation,  Produktbühne Kopfzeile"
+
+#: ../admin/admin.php:506
+msgid "Secondary"
+msgstr "Sekundäre"
+
+#: ../admin/admin.php:506
+msgid "Sidebar Content Background, Tooltip Background"
+msgstr "Seitenleistehintergrundfarbe, Tooltip Hintergrund"
+
+#: ../admin/admin.php:507
+msgid "Border"
+msgstr "Rand"
+
+#: ../admin/admin.php:507
+msgid "Border Color"
+msgstr "Randfarbe"
+
+#: ../admin/admin.php:508
+msgid "Highlight"
+msgstr "Highlight"
+
+#: ../admin/admin.php:508
+msgid "Highlight for Textareas, Inputs, Dropdowns, View Selection"
+msgstr "Highlight für Textfelder, Eingabe, Dropdowns, Ansichtauswahl"
+
+#: ../admin/admin.php:509
+msgid "Elements"
+msgstr "Elemente"
+
+#: ../admin/admin.php:509
+msgid "Primary Button Background, Text Color"
+msgstr "Primärer Buttonhintergrund, Textfarbe"
+
+#: ../admin/admin.php:510
+msgid "Submit Btn"
+msgstr "Bestätigung Btn"
+
+#: ../admin/admin.php:510
+msgid "Submit Button Background"
+msgstr "Bestätigungsbutton Hintergrund"
+
+#: ../admin/admin.php:511
+msgid "Danger Btn"
+msgstr "Risiko Btn"
+
+#: ../admin/admin.php:511
+msgid "Trash Button Background"
+msgstr "Löschbutton Hintergrund"
+
+#: ../admin/admin.php:512
+msgid "Text Btn"
+msgstr "Text Btn"
+
+#: ../admin/admin.php:512
+msgid "Text Button Color"
+msgstr "Textbutton Farbe"
+
+#: ../admin/admin.php:526
+msgid "Fancy Product - Order Viewer"
+msgstr "Fancy Product - Bestellungbetrachter"
+
+#: ../admin/admin.php:545
+msgid "Open"
+msgstr "Öffnen"
+
+#: ../admin/admin.php:561
+msgid ""
+"To load an ordered product, you need to click the \"Open\" button next to "
+"the ordered item in the \"Order Items\" panel!"
+msgstr ""
+"Um ein bestelltes Produkt zu laden, musst du auf den \"Öffnen\" Button neben "
+"dem bestellten Artikel im \"Artikelbestellungen\" Feld klicken!"
+
+#: ../admin/admin.php:564
+msgid "Export"
+msgstr "Exportieren"
+
+#: ../admin/admin.php:566
+msgid "Image format:"
+msgstr "Bildformat:"
+
+#: ../admin/admin.php:570
+msgid "Scale Factor:"
+msgstr "Skalierungsfaktor:"
+
+#: ../admin/admin.php:573
+msgid "PDF"
+msgstr "PDF"
+
+#: ../admin/admin.php:576
+msgid "Orientation"
+msgstr "Orientierung"
+
+#: ../admin/admin.php:577
+msgid "Portrait"
+msgstr "Portrait"
+
+#: ../admin/admin.php:578
+msgid "Landscape"
+msgstr "Landscape"
+
+#: ../admin/admin.php:582
+msgid "Size"
+msgstr "Grösse"
+
+#: ../admin/admin.php:584
+msgid "Width in mm"
+msgstr "Breite in mm"
+
+#: ../admin/admin.php:588
+msgid "Height in mm"
+msgstr "Höhe in mm"
+
+#: ../admin/admin.php:591
+msgid "DPI - Pixel Converter"
+msgstr "DPI - Pixel Umwandler"
+
+#: ../admin/admin.php:595
+msgid "Create PDF"
+msgstr "PDF erstellen"
+
+#: ../admin/admin.php:596
+msgid "Create PDF Of Current View"
+msgstr "PDF der aktuellen Ansicht erstellen"
+
+#: ../admin/admin.php:597
+msgid "The created pdfs will be stored: "
+msgstr "The erstellten PDFs werden gespeichert in:"
+
+#: ../admin/admin.php:601
+msgid "Image"
+msgstr "Bild"
+
+#: ../admin/admin.php:602
+msgid "Create Full Product Image"
+msgstr "Ganzes Produktbild erstellen"
+
+#: ../admin/admin.php:603
+msgid "Create Image Of Current View"
+msgstr "Bild von der aktuellen Ansicht erstellen"
+
+#: ../admin/admin.php:604
+msgid ""
+"To save the image on your computer, just right-click on it in the new opened "
+"tab and select <i>Save Image As</i> from the context-menu."
+msgstr ""
+"Um ein Bild auf deinem Computer zu speichern, einfach einen Rechtsklick auf "
+"diesem in dem neu geöffneten Tab und wähle <i>Speichern unter</i> aus dem "
+"Kontextmenu."
+
+#: ../admin/admin.php:606
+msgid "Element Images"
+msgstr "Bildelemente"
+
+#: ../admin/admin.php:606
+msgid "Element Images will be stored in: "
+msgstr "Elementbilder sind gespeichert in:"
+
+#: ../admin/admin.php:609
+msgid ""
+"Use origin size, that will set the scaling to 1, when exporting the image."
+msgstr ""
+"Verwende Ursprungsgrösse, das wird die Skalierung auf 1 setzen, wenn das "
+"Bild exportiert wird."
+
+#: ../admin/admin.php:612
+msgid "Create Image From Element"
+msgstr "Bild von einem Element erstellen"
+
+#: ../admin/admin.php:679
+msgid "Could not load order item image. Please try again"
+msgstr ""
+"Bestellartikel Bild konnte nicht geladen werden. Bitte versuche es noch "
+"einmal"
+
+#: ../admin/admin.php:767
+msgid "Could not create image. Please try again"
+msgstr "Bild konnte nicht erstellt werden. Bitte versuche es noch einmal"
+
+#: ../admin/admin.php:790
+msgid "No element selected!"
+msgstr "Kein Element ausgewählt!"
+
+#: ../admin/admin.php:809 ../admin/admin.php:813
+msgid "No width is set. Please set one!"
+msgstr "Keine Breite ist gesetzt. Bitte eine setzen!"
+
+#: ../admin/admin.php:839
+msgid ""
+"Could not create pdf. The sended data could be too large. Please try to "
+"export only a single view or try jpeg as image format!"
+msgstr ""
+"PDF konnte nicht erstellt werden. The gesendeten Daten könnten zu gross "
+"sein. Bitte versuche nur eine einzelne Ansicht zu exportieren oder versuche "
+"jpeg als Bildformat!"
+
+#: ../admin/admin.php:875
+msgid "No Fancy Product is selected. Please open one from the Order Items!"
+msgstr ""
+"Kein Fancy Product ist ausgewählt. Bitte öffne eins von den "
+"Artikelbestellungen!"
+
+#: ../admin/admin.php:1232
+msgid "Remove"
+msgstr "Entfernen"
+
+#: ../admin/admin.php:1232
+msgid "Edit Elements"
+msgstr "Elemente bearbeiten"
+
+#: ../admin/edit-fancy-products.php:2
+msgid "Product Builder"
+msgstr "Produkt Builder"
+
+#: ../admin/edit-fancy-products.php:12
+msgid "There are no fancy products!"
+msgstr "Es sind keine Fancy Produkte verfügbar!"
+
+#: ../admin/edit-fancy-products.php:60
+msgid "Elements saved."
+msgstr "Elemente gespeichert."
+
+#: ../admin/edit-fancy-products.php:65
+msgid "Select a view of a fancy product:"
+msgstr "Wähle eine eine Ansicht eines Fancy Produktes aus:"
+
+#: ../admin/edit-fancy-products.php:100
+msgid "Manage elements"
+msgstr "Elemente verwalten"
+
+#: ../admin/edit-fancy-products.php:102
+msgid "Add Image Element"
+msgstr "Bildelement hinzufügen"
+
+#: ../admin/edit-fancy-products.php:103
+msgid "Add Text Element"
+msgstr "Textelement hinzufügen"
+
+#: ../admin/edit-fancy-products.php:125
+msgid ""
+"You can drag the list items to change the z-position of the associated "
+"element."
+msgstr ""
+"Du kannst die Listobjekte bewegen um die z-Position des dazugehörigen "
+"Elementes zu ändern."
+
+#: ../admin/edit-fancy-products.php:127
+msgid "Save Elements"
+msgstr "Elemente speichern"
+
+#: ../admin/edit-fancy-products.php:134
+msgid "Edit parameters for "
+msgstr "Parameter bearbeiten für"
+
+#: ../admin/edit-fancy-products.php:138
+msgid "Product Stage"
+msgstr "Produktbühne"
+
+#: ../admin/edit-fancy-products.php:140
+msgid ""
+"If you can not touch a new added element, save the elements and try again!"
+msgstr ""
+"Wenn du ein neu hinzugefügtes Element nicht auswählen kannst, dann speichere "
+"die Elemente ab und versuche es noch einmal!"
+
+#: ../admin/edit-fancy-products.php:140
+msgid "Problems?"
+msgstr "Probleme?"
+
+#: ../admin/edit-fancy-products.php:143
+msgid "Center Element Horizontal"
+msgstr "Element horizontal zentrieren"
+
+#: ../admin/edit-fancy-products.php:144
+msgid "Center Element Vertical"
+msgstr "Element vertikal zentrieren"
+
+#: ../admin/edit-fancy-products.php:270
+msgid "Enter a title for the element:"
+msgstr "Gebe einen Titel für das Element ein:"
+
+#: ../admin/edit-fancy-products.php:289
+msgid "Choose an element image"
+msgstr "Wähle ein Bildelement"
+
+#: ../admin/edit-fancy-products.php:291
+msgid "Set Element"
+msgstr "Element setzen"
+
+#: ../admin/edit-fancy-products.php:311
+msgid ""
+"Enter the default text for the text element. For multiline text, use "
+"backslash+n."
+msgstr ""
+"Gebe den Standardtext für das Textelement ein. Für mehrzeiligen text, "
+"verwende Backslash+n."
+
+#: ../admin/edit-fancy-products.php:317
+msgid "Please enter the default text!"
+msgstr "Bitte setze einen Standardtext!"
+
+#: ../admin/edit-fancy-products.php:430
+msgid "Remove element?"
+msgstr "Element entfernen?"
+
+#: ../admin/edit-fancy-products.php:483
+msgid "You have not save your changes!"
+msgstr "Du hast deine Änderungen nicht gespeichert!"
+
+#: ../admin/manage-designs.php:46
+msgid "Designs saved."
+msgstr "Motive gespeichert."
+
+#: ../admin/manage-designs.php:51
+msgid "Create a new category"
+msgstr "Neue Kategorie erstellen"
+
+#: ../admin/manage-designs.php:64
+msgid "Add Designs"
+msgstr "Motive hinzufügen"
+
+#: ../admin/manage-designs.php:92
+msgid "Save Changes"
+msgstr "Änderungen speichern"
+
+#: ../admin/manage-designs.php:97
+msgid "Edit Parameters"
+msgstr "Parameter bearbeiten"
+
+#: ../admin/manage-designs.php:98
+msgid ""
+"If enabling the parameters for a single design, these will be used instead "
+"the default parameters for designs, that are set in the settings."
+msgstr ""
+"Wenn die Parameter für ein einzelnes Motiv aktiviert sind, werden diese "
+"verwendet anstelle der voreingestellten Parameter für Motive, welche in den "
+"Einstellungen gesetzt sind."
+
+#: ../admin/manage-designs.php:101
+msgid "Enable single design parameters!"
+msgstr "Aktiviere einzelne Motivparameter!"
+
+#: ../admin/manage-designs.php:106 ../admin/settings-init.php:311
+#: ../admin/settings-init.php:568
+msgid "X-Position"
+msgstr "X-Position"
+
+#: ../admin/manage-designs.php:110 ../admin/settings-init.php:323
+#: ../admin/settings-init.php:582
+msgid "Y-Position"
+msgstr "Y-Position"
+
+#: ../admin/manage-designs.php:114 ../admin/settings-init.php:335
+msgid "Z-Position"
+msgstr "Z-Position"
+
+#: ../admin/manage-designs.php:118 ../admin/parameters-form.php:10
+msgid "Scale"
+msgstr "Skalierung"
+
+#: ../admin/manage-designs.php:122
+msgid "Color(s)"
+msgstr "Farbe(n)"
+
+#: ../admin/manage-designs.php:126 ../admin/parameters-form.php:18
+#: ../admin/settings-init.php:359 ../admin/settings-init.php:606
+msgid "Price"
+msgstr "Preis"
+
+#: ../admin/manage-designs.php:134
+msgid "Cancel"
+msgstr "Abbrechen"
+
+#: ../admin/manage-designs.php:135
+msgid "Set"
+msgstr "Festlegen"
+
+#: ../admin/manage-designs.php:170
+msgid "Choose Designs"
+msgstr "Wähle Motive"
+
+#: ../admin/manage-designs.php:172
+msgid "Set Designs"
+msgstr "Setze Motive"
+
+#: ../admin/parameters-form.php:4
+msgid "Position"
+msgstr "Position"
+
+#: ../admin/parameters-form.php:5 ../admin/parameters-form.php:41
+msgid "x"
+msgstr "x"
+
+#: ../admin/parameters-form.php:7 ../admin/parameters-form.php:42
+msgid "y"
+msgstr "y"
+
+#: ../admin/parameters-form.php:14 ../admin/settings-init.php:1112
+msgid "Angle"
+msgstr "Winkel"
+
+#: ../admin/parameters-form.php:23 ../admin/settings-init.php:349
+#: ../admin/settings-init.php:596
+msgid "Colors"
+msgstr "Farben"
+
+#: ../admin/parameters-form.php:23
+msgid ""
+"One color value: Colorpicker, Multiple color values: Predefined color list, "
+"Element Title: Color Control"
+msgstr ""
+"Ein Farbwert: Colorpicker, Mehere Farbwerte: Festgelegte Farbliste, "
+"Elementtitel: Farbkontrolle"
+
+#: ../admin/parameters-form.php:24
+msgid "Enter hex colors by , separating values."
+msgstr "Setze HEX Farben die mit einem , separiert sind."
+
+#: ../admin/parameters-form.php:24
+msgid ""
+"Enter hex colors by , separating values or the title of an element in the "
+"first view to use color control."
+msgstr ""
+"Setze HEX Farben die mit einem , separiert sind oder den Titel eines "
+"Elements aus der ersten Ansicht um Farbkontrolle zu verwenden."
+
+#: ../admin/parameters-form.php:25
+msgid "E.g. #000000,#990000"
+msgstr "z.B. #000000,#990000"
+
+#: ../admin/parameters-form.php:28
+msgid "Modifications"
+msgstr "Modifiaktionen"
+
+#: ../admin/parameters-form.php:29
+msgid "Removable"
+msgstr "Entfernbar"
+
+#: ../admin/parameters-form.php:30 ../admin/settings-init.php:381
+#: ../admin/settings-init.php:628
+msgid "Draggable"
+msgstr "Bewegbar"
+
+#: ../admin/parameters-form.php:31 ../admin/settings-init.php:388
+#: ../admin/settings-init.php:635
+msgid "Rotatable"
+msgstr "Rotierbar"
+
+#: ../admin/parameters-form.php:32 ../admin/settings-init.php:395
+#: ../admin/settings-init.php:642
+msgid "Resizable"
+msgstr "Skalierbar"
+
+#: ../admin/parameters-form.php:33
+msgid "Z-Position Changeable"
+msgstr "Z-Positon änderbar"
+
+#: ../admin/parameters-form.php:34
+msgid "Patternable - only for text elements"
+msgstr "Muster möglich - nur für Textelemenet"
+
+#: ../admin/parameters-form.php:37
+msgid "Bounding Box"
+msgstr "Begrenzungsbox"
+
+#: ../admin/parameters-form.php:38
+msgid "Use another element as bounding box"
+msgstr "Verwende ein anderes Element als Begrenzungsbox"
+
+#: ../admin/parameters-form.php:44
+msgid "width"
+msgstr "Breite"
+
+#: ../admin/parameters-form.php:45
+msgid "height"
+msgstr "Höhe"
+
+#: ../admin/parameters-form.php:47
+msgid "Title of another element in the same view."
+msgstr "Titel eines anderen Elements aus der selben Ansicht ein."
+
+#: ../admin/parameters-form.php:50
+msgid "Font - only for text elements"
+msgstr "Schriftart - nur für Textelemenet"
+
+#: ../admin/parameters-form.php:53
+msgid "Select a font"
+msgstr "Schriftart auswählen"
+
+#: ../admin/settings-init.php:49
+msgid "Layout & Dimensions"
+msgstr "Layout & Dimensionen"
+
+#: ../admin/settings-init.php:51
+msgid "Set here the layout and dimensions for the product designer."
+msgstr "Setze hier das Layout und die Dimensionen für den Produktdesigner."
+
+#: ../admin/settings-init.php:55
+msgid "Layout"
+msgstr "Layout"
+
+#: ../admin/settings-init.php:62
+msgid "Vertical Sidebar"
+msgstr "Vertikale Seitenleiste"
+
+#: ../admin/settings-init.php:63
+msgid "Horizontal Sidebar"
+msgstr "Horizontale Seitenleiste"
+
+#: ../admin/settings-init.php:68
+msgid "Sidebar Navigation Width/Height"
+msgstr "Seitenleiste Navigationsbreite/höhe"
+
+#: ../admin/settings-init.php:69
+msgid ""
+"The size for the navigation in the sidebar. Vertical layout = Width, "
+"Horizontal Layout = Height"
+msgstr ""
+"Die Grösse für die Navigation in der Seitenleiste. Vertikales Layout = "
+"Breite, Horizontales Layout = Höhe."
+
+#: ../admin/settings-init.php:82
+msgid "Sidebar Content Width"
+msgstr "Seitenleiste Inhaltsbreite"
+
+#: ../admin/settings-init.php:83
+msgid ""
+"The width for the content box in the sidebar. Only necessary for the "
+"vertical layout. If using the horizontal layout, a fixed height of 200px "
+"will be used."
+msgstr ""
+"Die Breite für die Inhaltsbox in der Seitenleiste. Nur notwendig für das "
+"vertikale Layout. Wenn das horizontale Layout verwendet wir, eine feste Höhe "
+"von 200px wird verwendet."
+
+#: ../admin/settings-init.php:96
+msgid "Sidebar Height/Width"
+msgstr "Seitenleiste Inhaltshöhe/breite"
+
+#: ../admin/settings-init.php:97
+msgid ""
+"The size for the sidebar. Vertical layout = Height, Horizontal Layout = Width"
+msgstr ""
+"Die Grösse für die Seitenleiste. Vertikales Layout = Höhe, Horizontales "
+"Layout = Breite."
+
+#: ../admin/settings-init.php:110
+msgid "Product Stage Width"
+msgstr "Produktbühnebreite"
+
+#: ../admin/settings-init.php:111
+msgid "The width for the product stage."
+msgstr "Die Breite für die Produktbühne."
+
+#: ../admin/settings-init.php:124
+msgid "Product Stage Height"
+msgstr "Produktbühne Höhe"
+
+#: ../admin/settings-init.php:125
+msgid "The height for the product stage"
+msgstr "Die Höhe für die Produktbühne."
+
+#: ../admin/settings-init.php:139
+msgid "Styling"
+msgstr "Styling"
+
+#: ../admin/settings-init.php:139
+msgid "Set here the colors for the product designer."
+msgstr "Setze hier die Farben für den Produktdesigner."
+
+#: ../admin/settings-init.php:145
+msgid "Product Designer"
+msgstr "Product Designer"
+
+#: ../admin/settings-init.php:145
+msgid "Set here the plugin options for the Product Designer."
+msgstr "Setze hier die Optionen für den Product Designer."
+
+#: ../admin/settings-init.php:148
+msgid "Default Text Size"
+msgstr "Voreingestelle Textgrösse"
+
+#: ../admin/settings-init.php:149
+msgid "The default text size for all text elements."
+msgstr "Die voreingestelle Textgrösse für alle Textelemente."
+
+#: ../admin/settings-init.php:162
+msgid "Show Fonts Dropdown"
+msgstr "Zeige Schrift-Dropdown"
+
+#: ../admin/settings-init.php:163
+msgid "Let the customers select a font for text elements"
+msgstr "Lass die Kunden eine Schrift für Textelemente auswählen"
+
+#: ../admin/settings-init.php:170
+msgid "Allow Product Saving"
+msgstr "Erlaube Produktspeicherung"
+
+#: ../admin/settings-init.php:171
+msgid "Allow customers to save their customized products"
+msgstr "Erlaube den Kunden ihre angepassten Produkte zu speichern"
+
+#: ../admin/settings-init.php:178
+msgid "PDF Button"
+msgstr "PDF Button"
+
+#: ../admin/settings-init.php:179
+msgid "Show the PDF button in the menu bar of the product stage"
+msgstr "Zeige den PDF Button in der Menubar der Produktbühne"
+
+#: ../admin/settings-init.php:186
+msgid "Center Elements In Bounding Box"
+msgstr "Zentriere Elemente in der Begrenzungsbox"
+
+#: ../admin/settings-init.php:187
+msgid "Center elements, that have a bounding box, automatically in it"
+msgstr ""
+"Zentriere Elemente, die eine Begrenzungsbox haben, in dieser automatisch"
+
+#: ../admin/settings-init.php:194
+msgid "Custom Text Tab"
+msgstr "Eigener Text Tab"
+
+#: ../admin/settings-init.php:195
+msgid "Can customers add own text elements to the product?"
+msgstr "Können Kunden eigene Texte zu dem Produkt hinzufügen?"
+
+#: ../admin/settings-init.php:202
+msgid "Default Font"
+msgstr "Voreingestellte Schrift"
+
+#: ../admin/settings-init.php:203
+msgid ""
+"Enter the default font. If you leave it empty, the first font from the fonts "
+"dropdown will be used."
+msgstr ""
+"Setze die voreingestelle Schrift. Wenn du es leer lässt, dann wird die erste "
+"Schrift aus dem Schrift-Dropdown verwendet."
+
+#: ../admin/settings-init.php:212
+msgid "Upload Designs Tab"
+msgstr "Motivupload Tab"
+
+#: ../admin/settings-init.php:213
+msgid "Can customers upload own designs to the product?"
+msgstr "Können Kunden eigene Motive zu dem Produkt hinzufügen?"
+
+#: ../admin/settings-init.php:220
+msgid "Image Uploader"
+msgstr "Bild Uploader"
+
+#: ../admin/settings-init.php:224
+msgid ""
+"When customers can upload own images, you can choose between 2 different "
+"uploaders."
+msgstr ""
+"Wenn Kunden eigene Bilder hochladen können, kannst du zwischen 2 Uploadern "
+"wählen."
+
+#: ../admin/settings-init.php:226
+msgid "Filereader Uploader"
+msgstr "Filereader Uploader"
+
+#: ../admin/settings-init.php:227
+msgid "PHP Uploader"
+msgstr "PHP Uploader"
+
+#: ../admin/settings-init.php:232
+msgid "Maximum Image Size (MB)"
+msgstr "Maximale Bildgrösse (MB)"
+
+#: ../admin/settings-init.php:233
+msgid "The maximum image size in Megabytes, when using the PHP uploader."
+msgstr ""
+"Die maximale Bildgrösse in Megabytes, wenn PHP Uploader verwendet wird."
+
+#: ../admin/settings-init.php:246
+msgid "Facebook App-ID"
+msgstr "Facebook App-ID"
+
+#: ../admin/settings-init.php:247
+msgid ""
+"To allow users to add photos from facebook you have to enter a Facebook App-"
+"Id."
+msgstr ""
+"Um Nutzer es zu erlauben Facebook Fotos hinzuzufügen, musst du eine Facebook "
+"App-ID eingeben."
+
+#: ../admin/settings-init.php:256
+msgid "Disable On Smartphones"
+msgstr "Für Smartphones deaktivieren"
+
+#: ../admin/settings-init.php:257
+msgid ""
+"Disable product designer on smartphones and display an information instead?"
+msgstr ""
+"Deaktiviere Product Designer auf allen Smartphones und zeige stattdessen "
+"eine Information?"
+
+#: ../admin/settings-init.php:264
+msgid "Disable On Tablets"
+msgstr "Für Tablets deaktivieren"
+
+#: ../admin/settings-init.php:265
+msgid "Disable product designer on tablets and display an information instead?"
+msgstr ""
+"Deaktiviere Product Designer auf allen Tablets und zeige stattdessen eine "
+"Information?"
+
+#: ../admin/settings-init.php:272
+msgid "Product Title In Menu Bar"
+msgstr "Produkttitel in die Menubar"
+
+#: ../admin/settings-init.php:273
+msgid ""
+"Display product title in the menu bar instead the text you set in the labels "
+"settings."
+msgstr ""
+"Zeige Produkttitel in der Menubar anstelle dem Text, den du in den "
+"Bezeichner Einstellungen setzen kannst."
+
+#: ../admin/settings-init.php:281
+msgid "Template"
+msgstr "Vorlage"
+
+#: ../admin/settings-init.php:284
+msgid "No Sidebar"
+msgstr "Keine Seitenleiste"
+
+#: ../admin/settings-init.php:285
+msgid ""
+"A template without sidebar and the product title will be placed over the "
+"product designer."
+msgstr ""
+"Eine Vorlage ohne Seitenleiste und der Produkttitel wird über dem Product "
+"Designer angezeigt."
+
+#: ../admin/settings-init.php:292
+msgid "Show Product Image"
+msgstr "Zeige Produktbild"
+
+#: ../admin/settings-init.php:293
+msgid ""
+"Show the product image as well, this could cause that the product designer "
+"is not aligned correctly."
+msgstr ""
+"Zeige das Produktbild ebenfalls, das könnte dazu führen, dass der Produkt "
+"Designer nicht korrekt dargestellt wird."
+
+#: ../admin/settings-init.php:305
+msgid "Design & Uploaded Images Parameters"
+msgstr "Motiv & Hochgeladene Bilder Parameter"
+
+#: ../admin/settings-init.php:307
+msgid ""
+"The default parameters for the designs in the sidebar and the uploaded "
+"images by the customers."
+msgstr ""
+"Die voreingestellt Parameter für die Motive in der Seitenleiste und "
+"hochgeladene Bilder der Kunden."
+
+#: ../admin/settings-init.php:336
+msgid ""
+"-1 means that the element will be added at the top. An value higher than "
+"that, will add the element to that z-position."
+msgstr ""
+"-1 heisst dass das Element ganz oben platziert wird. Ein Wert höher als "
+"dieser, dann wird das Element auf diese Z-Position gesetzt."
+
+#: ../admin/settings-init.php:350 ../admin/settings-init.php:597
+msgid "Enter hex color(s) separated by comma."
+msgstr "Setze HEX Farb(en) separiert duch ein Komma."
+
+#: ../admin/settings-init.php:360
+msgid "Enter the additional price for a design element."
+msgstr "Setze den zusätzlich Preis für ein Motivelement."
+
+#: ../admin/settings-init.php:373 ../admin/settings-init.php:620
+msgid "Auto-Center"
+msgstr "Auto-Zentrierung"
+
+#: ../admin/settings-init.php:374
+msgid ""
+"Will center a new added design automtically in stage or in bounding box."
+msgstr ""
+"Zentriert ein neu hinzugefütes Motiv in der Bühne oder Begrenzungsbox "
+"automatisch."
+
+#: ../admin/settings-init.php:402 ../admin/settings-init.php:649
+msgid "Z-Changeable"
+msgstr "Z-Änderbar"
+
+#: ../admin/settings-init.php:409 ../admin/settings-init.php:664
+msgid "Use another element as bounding box?"
+msgstr "Verwende ein anderes Element als Begrenzungsbox?"
+
+#: ../admin/settings-init.php:417 ../admin/settings-init.php:672
+msgid "Bounding Box Target"
+msgstr "Begrenzungsboxziel"
+
+#: ../admin/settings-init.php:418 ../admin/settings-init.php:673
+msgid ""
+"Enter the title of another element that should be used as bounding box for "
+"design elements."
+msgstr ""
+"Gebe den Titel eines anderen Elements ein das als Begrenzungsbox für dieses "
+"Motivelement verwenden soll."
+
+#: ../admin/settings-init.php:428 ../admin/settings-init.php:683
+msgid "Bounding Box X-Position"
+msgstr "Begrenzungsbox X-Position"
+
+#: ../admin/settings-init.php:441 ../admin/settings-init.php:696
+msgid "Bounding Box Y-Position"
+msgstr "Begrenzungsbox Y-Position"
+
+#: ../admin/settings-init.php:454 ../admin/settings-init.php:709
+msgid "Bounding Box Width"
+msgstr "Begrenzungsbox Breite"
+
+#: ../admin/settings-init.php:467 ../admin/settings-init.php:722
+msgid "Bounding Box Height"
+msgstr "Begrenzungsbox Höhe"
+
+#: ../admin/settings-init.php:480
+msgid "Minimum Width"
+msgstr "Minimale Breite"
+
+#: ../admin/settings-init.php:481
+msgid "The minimum image width for uploaded designs from the customers."
+msgstr "Die minimale Bildbreite für hochgeladene Kundenmotive."
+
+#: ../admin/settings-init.php:494
+msgid "Minimum Height"
+msgstr "Minimale Höhe"
+
+#: ../admin/settings-init.php:495
+msgid "The minimum image height for uploaded designs from the customers."
+msgstr "Die minimale Bildhöhe für hochgeladene Kundenmotive."
+
+#: ../admin/settings-init.php:508
+msgid "Maximum Width"
+msgstr "Maximale Breite"
+
+#: ../admin/settings-init.php:509
+msgid "The maximum image width for uploaded designs from the customers."
+msgstr "Die maximale Bildbreite für hochgeladene Kundenmotive."
+
+#: ../admin/settings-init.php:522
+msgid "Maximum Height"
+msgstr "Maximale Höhe"
+
+#: ../admin/settings-init.php:523
+msgid "The maximum image height for uploaded designs from the customers."
+msgstr "Die maximale Bildhöhe für hochgeladene Kundenmotive."
+
+#: ../admin/settings-init.php:536
+msgid "Resize To Width"
+msgstr "Grösse an die Breite anpassen"
+
+#: ../admin/settings-init.php:537
+msgid ""
+"Resize the uploaded image to this width, when width is larger than height."
+msgstr ""
+"Grösse des hochgeladendes Bild an diese Breite anpassen, wenn die Breite "
+"grösser als die Höhe ist."
+
+#: ../admin/settings-init.php:550
+msgid "Resize To Height"
+msgstr "Grösse an die Höhe anpassen"
+
+#: ../admin/settings-init.php:551
+msgid ""
+"Resize the uploaded image to this height, when height is larger than width."
+msgstr ""
+"Grösse des hochgeladendes Bild an diese Höhe anpassen, wenn die Höhe grösser "
+"als die Breite ist."
+
+#: ../admin/settings-init.php:565
+msgid "Custom Text Parameters"
+msgstr "Eigener Text Parameter"
+
+#: ../admin/settings-init.php:565
+msgid ""
+"Set here the default parameters, that will be used when a customer adds a "
+"custom text."
+msgstr ""
+"Setze hier die voreingestellten Parameter, die für eigene Kundentexte "
+"verwendet werden sollen."
+
+#: ../admin/settings-init.php:569
+msgid "The x-position of the custom text element."
+msgstr "Die x-Position für eigene Textelemente."
+
+#: ../admin/settings-init.php:583
+msgid "The y-position of the custom text element."
+msgstr "Die y-Position für eigene Textelemente."
+
+#: ../admin/settings-init.php:607
+msgid "Enter the additional price for a text element."
+msgstr "Setze den zusätzlichen Preis für das Textelement."
+
+#: ../admin/settings-init.php:621
+msgid "Will center a new added text automtically in stage or in bounding box."
+msgstr ""
+"Zentriert einen neu hinzugefühten Text in der Bühne oder in der "
+"Begrenzungsbox automatisch."
+
+#: ../admin/settings-init.php:656
+msgid "Patternable"
+msgstr "Muster möglich"
+
+#: ../admin/settings-init.php:657
+msgid "Can the customer choose a pattern?"
+msgstr "Kann der Kunde ein Patten auswählen?"
+
+#: ../admin/settings-init.php:742
+msgid "Sidebar Labels"
+msgstr "Seitenleiste Bezeichner"
+
+#: ../admin/settings-init.php:743
+msgid "Edit the text and tooltips for the elements in the sidebar."
+msgstr "Bearbeite die Text und Tooltips für die Elemente in der Seitenleiste."
+
+#: ../admin/settings-init.php:747
+msgid "Navigation Products Tooltip"
+msgstr "Navigation Produkte Tooltip"
+
+#: ../admin/settings-init.php:748
+msgid "Tooltip for the \"Products\" navigation tab."
+msgstr "Tooltip für den \"Produkte\" Navigation Tab."
+
+#: ../admin/settings-init.php:756
+msgid "Navigation Designs Tooltip"
+msgstr "Navigation Motive Tooltip"
+
+#: ../admin/settings-init.php:757
+msgid "Tooltip for the \"Designs\" navigation tab."
+msgstr "Tooltip für den \"Motive\" Navigation Tab."
+
+#: ../admin/settings-init.php:765
+msgid "Navigation Add-Text Tooltip"
+msgstr "Navigation Text-Hinzufügen Tooltip"
+
+#: ../admin/settings-init.php:766
+msgid "Tooltip for the \"Add-Text\" navigation tab."
+msgstr "Tooltip für den \"Text-Hinzufügen\" Navigation Tab."
+
+#: ../admin/settings-init.php:774
+msgid "Navigation Edit-Elements Tooltip"
+msgstr "Navigation Elemente-Bearbeiten Tooltip"
+
+#: ../admin/settings-init.php:775
+msgid "Tooltip for the \"Edit-Elements\" navigation tab."
+msgstr "Tooltip für den \"Elemente-Bearbeiten\" Navigation Tab."
+
+#: ../admin/settings-init.php:783
+msgid "Navigation Upload Designs Tooltip"
+msgstr "Navigation Motivupload Tooltip"
+
+#: ../admin/settings-init.php:784
+msgid "Tooltip for the \"Upload Designs\" navigation tab."
+msgstr "Tooltip für den \"Motive-hochladen\" Navigation Tab."
+
+#: ../admin/settings-init.php:792
+msgid "Navigation Facebook Tooltip"
+msgstr "Navigation Facebook Tooltip"
+
+#: ../admin/settings-init.php:793
+msgid "Tooltip for the \"Facebook\" navigation tab."
+msgstr "Tooltip für den \"Facebook\" Navigation Tab."
+
+#: ../admin/settings-init.php:801
+msgid "Navigation Saved-Products Tooltip"
+msgstr "Navigation Gespeicherte-Produkte Tooltip"
+
+#: ../admin/settings-init.php:802
+msgid "Tooltip for the \"Saved-Products\" navigation tab."
+msgstr "Tooltip für den \"Gespeichrte-Produkte\" Navigation Tab."
+
+#: ../admin/settings-init.php:810
+msgid "Custom Text Headline"
+msgstr "Eigener Text Überschrift"
+
+#: ../admin/settings-init.php:811
+msgid "Headline to add custom text elements."
+msgstr "Überschrift um eigene Textelemente hinzuzufügen."
+
+#: ../admin/settings-init.php:819
+msgid "Custom Text Placeholder"
+msgstr "Eiegner Text Platzhalter"
+
+#: ../admin/settings-init.php:820
+msgid "Placeholder for the textarea."
+msgstr "Platzhalter für das Textfeld."
+
+#: ../admin/settings-init.php:828
+msgid "Custom Text Button"
+msgstr "Eigener-Text Button"
+
+#: ../admin/settings-init.php:829
+msgid "The text for the button to add custom text elements."
+msgstr "Der Text für den Button um eigene Textelemente hinzuzufügen-"
+
+#: ../admin/settings-init.php:837
+msgid "Edit Elements Headline"
+msgstr "Elemente bearbeiten Überschrift"
+
+#: ../admin/settings-init.php:838
+msgid "Headline to customize elements."
+msgstr "Überschrift um Elemente anzupassen"
+
+#: ../admin/settings-init.php:846
+msgid "None Option Elements Dropdown"
+msgstr "Keins Option Elemente Dropdown"
+
+#: ../admin/settings-init.php:847
+msgid "Text for the none option of the elements dropdown."
+msgstr "Text für die Keins-Option innerhalb des Element-Dropdowns."
+
+#: ../admin/settings-init.php:855
+msgid "Align Left Tooltip"
+msgstr "Linke Ausrichtung Tooltip"
+
+#: ../admin/settings-init.php:856
+msgid "Tooltip for the \"Align-Left\" button when customizing a text element."
+msgstr ""
+"Tooltip für den \"Linke-Ausrichtung\" Button wenn man ein Textelement "
+"anpasst."
+
+#: ../admin/settings-init.php:864
+msgid "Align Center Tooltip"
+msgstr "Zentrierte Ausrichtung Tooltip"
+
+#: ../admin/settings-init.php:865
+msgid "Tooltip for the \"Center-Left\" button when customizing a text element."
+msgstr ""
+"Tooltip für den \"Zentrierte-Ausrichtung\" Button wenn man ein Textelement "
+"anpasst."
+
+#: ../admin/settings-init.php:873
+msgid "Align Right Tooltip"
+msgstr "Rechte Ausrichtung Tooltip"
+
+#: ../admin/settings-init.php:874
+msgid "Tooltip for the \"Right-Left\" button when customizing a text element."
+msgstr ""
+"Tooltip für den \"Rechte-Ausrichtung\" Button wenn man ein Textelement "
+"anpasst."
+
+#: ../admin/settings-init.php:882
+msgid "Bold Tooltip"
+msgstr "Fett Tooltip"
+
+#: ../admin/settings-init.php:883
+msgid "Tooltip for the \"Bold\" button when customizing a text element."
+msgstr "Tooltip für den \"Fett\" Button wenn man ein Textelement anpasst."
+
+#: ../admin/settings-init.php:891
+msgid "Italic Tooltip"
+msgstr "Kursiv Tooltip"
+
+#: ../admin/settings-init.php:892
+msgid "Tooltip for the \"Italic\" button when customizing a text element."
+msgstr "Tooltip für den \"Kursiv\" Button wenn man ein Textelement anpasst."
+
+#: ../admin/settings-init.php:900
+msgid "Center Horizontal Tooltip"
+msgstr "Zentriere horizontal Tooltip"
+
+#: ../admin/settings-init.php:901
+msgid "Tooltip for the \"Center-Horizontal\" button."
+msgstr "Tooltip für den \"Horizontale-Zentrierung\" Button."
+
+#: ../admin/settings-init.php:909
+msgid "Center Vertical Tooltip"
+msgstr "Zentriere vertikal Tooltip"
+
+#: ../admin/settings-init.php:910
+msgid "Tooltip for the \"Center-Vertical\" button."
+msgstr "Tooltip für den \"Vertikale-Zentrierung\" Button."
+
+#: ../admin/settings-init.php:918
+msgid "Move-It-Down Tooltip"
+msgstr "Eins-nach-unten Tooltip"
+
+#: ../admin/settings-init.php:919
+msgid "Tooltip for the \"Move it down\" button."
+msgstr "Tooltip für den \"Eins-nach-unten\" Button."
+
+#: ../admin/settings-init.php:927
+msgid "Move-It-Up Tooltip"
+msgstr "Eins-nach-oben"
+
+#: ../admin/settings-init.php:928
+msgid "Tooltip for the \"Move it up\" button."
+msgstr "Tooltip für den \"Eins-nach-oben\" Button."
+
+#: ../admin/settings-init.php:936
+msgid "Reset Tooltip"
+msgstr "Zurücksetzen Tooltip"
+
+#: ../admin/settings-init.php:937
+msgid "Tooltip for the \"Reset to his origin\" button."
+msgstr "Tooltip für den \"Zum Ursprung zurücksetzen\" Button."
+
+#: ../admin/settings-init.php:945
+msgid "Trash Tooltip"
+msgstr "Entfernen Tooltip"
+
+#: ../admin/settings-init.php:946
+msgid "Tooltip for the \"Trash\" button."
+msgstr "Tooltip für den \"Entfernen\" Button."
+
+#: ../admin/settings-init.php:954
+msgid "Upload Designs Tooltip"
+msgstr "Motiveupload Tooltip"
+
+#: ../admin/settings-init.php:955
+msgid "Headline for the Upload Designs box."
+msgstr "Überschrift für Motiveupload Box."
+
+#: ../admin/settings-init.php:963
+msgid "Upload Designs Info"
+msgstr "Motiveupload Info"
+
+#: ../admin/settings-init.php:964
+msgid "Some information for the Upload Designs box."
+msgstr "Ein paar Informationen für die Motiveupload Box."
+
+#: ../admin/settings-init.php:973
+msgid "Upload Designs Button"
+msgstr "Motiveupload Button"
+
+#: ../admin/settings-init.php:974
+msgid "Upload button in the Upload Designs box."
+msgstr "Upload Button in der Motiveupload box."
+
+#: ../admin/settings-init.php:982
+msgid "Add Facebook Photos Headline"
+msgstr "Facebook Fotos hinzufügen Überschrift"
+
+#: ../admin/settings-init.php:983
+msgid "Headline for the \"Facebook\" tab."
+msgstr "Überschrift für den \"Facebook\" Tab."
+
+#: ../admin/settings-init.php:991
+msgid "Facebook Photos: Select Friend"
+msgstr "Facebook Fotos: Freund auswählen"
+
+#: ../admin/settings-init.php:992
+msgid "Default text for the select-dropdown to select a facebook friend."
+msgstr ""
+"Der voreingestellt Text für das Select-Dropdown um ein Facebook Freund "
+"auszuwählen."
+
+#: ../admin/settings-init.php:1000
+msgid "Facebook Photos: Select album"
+msgstr "Facebook Photos: Album auswählen"
+
+#: ../admin/settings-init.php:1001
+msgid "Default text for the select-dropdown to select an album."
+msgstr ""
+"Der voreingestellt Text für das Select-Dropdown um ein Album auszuwählen."
+
+#: ../admin/settings-init.php:1009
+msgid "Saved Products Headline"
+msgstr "Gespeicherte Produkte Überschrift"
+
+#: ../admin/settings-init.php:1010
+msgid "Headline for the \"Saved Products\" tab."
+msgstr "Überschrift für den \"Gespeicherte Produkte\" Tab."
+
+#: ../admin/settings-init.php:1019
+msgid "Product Stage Labels"
+msgstr "Produktbühne Bezeichner"
+
+#: ../admin/settings-init.php:1019
+msgid "Edit the texts and tooltips for the elements in the product stage."
+msgstr "Bearbeite die Texte and Tooltips für die Elemente in der Produktbühne."
+
+#: ../admin/settings-init.php:1022
+msgid "Product Stage Headline"
+msgstr "Produktbühne Überschrift"
+
+#: ../admin/settings-init.php:1023
+msgid "The headline for the product stage."
+msgstr "Die Überschrift für die Produktbühne."
+
+#: ../admin/settings-init.php:1031
+msgid "Save Product Tooltip"
+msgstr "Produkt speichern Tooltip"
+
+#: ../admin/settings-init.php:1032
+msgid "Tooltip for the \"Save Product\" button in the menu bar."
+msgstr "Tooltip für den \"Produkt speichern\" Button in der Menubar."
+
+#: ../admin/settings-init.php:1040
+msgid "Download Product Image Tooltip"
+msgstr "Download Produktbild Tooltip"
+
+#: ../admin/settings-init.php:1041
+msgid "Tooltip for the \"Download Product Image\" button in the menu bar."
+msgstr "Tooltip für den \"Download Produktbild\" Button in der Menubar."
+
+#: ../admin/settings-init.php:1049
+msgid "Print Tooltip"
+msgstr "Drucken Tooltip"
+
+#: ../admin/settings-init.php:1050
+msgid "Tooltip for the \"Print\" button in the menu bar."
+msgstr "Tooltip für den \"Drucken\" Button in der Menubar."
+
+#: ../admin/settings-init.php:1058
+msgid "Save As PDF Tooltip"
+msgstr "Als PDF speichern Tooltip"
+
+#: ../admin/settings-init.php:1059 ../admin/settings-init.php:1068
+msgid "Tooltip for the \"Save As PDF\" button in the menu bar."
+msgstr "Tooltip für den \"Speichern als PDF\" Button in der Menubar."
+
+#: ../admin/settings-init.php:1067
+msgid "Reset Product"
+msgstr "Produkt wiederherstellen"
+
+#: ../admin/settings-init.php:1077
+msgid "Modification Tooltips"
+msgstr "Modifikation Tooltips"
+
+#: ../admin/settings-init.php:1077
+msgid "Edit the texts for the modification tooltips."
+msgstr "Bearbeite die Texte für die Modifikation-Tooltips."
+
+#: ../admin/settings-init.php:1080
+msgid "X"
+msgstr "X"
+
+#: ../admin/settings-init.php:1088
+msgid "Y"
+msgstr "Y"
+
+#: ../admin/settings-init.php:1096
+msgid "Width"
+msgstr "Breite"
+
+#: ../admin/settings-init.php:1104
+msgid "Height"
+msgstr "Höhe"
+
+#: ../admin/settings-init.php:1121
+msgid "Additional Labels"
+msgstr "Zusätzliche Bezeichner"
+
+#: ../admin/settings-init.php:1121
+msgid "Edit the texts for the other labels like alerts, confirm boxes etc.."
+msgstr ""
+"Bearbeite die Text für weitere Bezeichner wie Warnungen, Bestätigungsboxen "
+"etc.."
+
+#: ../admin/settings-init.php:1124
+msgid "Out Of Containment Alert"
+msgstr "\"Ausserhalb der Begrenzung\" Warnung"
+
+#: ../admin/settings-init.php:1125
+msgid ""
+"The text that appears in the tooltip when an element is out of his "
+"containment. The element title will be added before the text."
+msgstr ""
+"Der Text, der erscheint im Tooltip wenn ein Element sich ausserhalb der "
+"Begrenzung befindet. Der Elementtitel wird vor diesen Text gestellt."
+
+#: ../admin/settings-init.php:1133
+msgid "Uploaded Design Size Alert"
+msgstr "Hochgeladene Motivgrösse warnung"
+
+#: ../admin/settings-init.php:1134
+msgid ""
+"The text for the alert when the image resolution is not in the range that "
+"you set for the minimum/maximum sizes for an uploaded design."
+msgstr ""
+"Der Text für die Warnung wenn sich die Bildauflösung nicht im Bereich für "
+"die minimale/maximale Grössen für hochgeladene Motive befindet."
+
+#: ../admin/settings-init.php:1143
+msgid "Confirm Product Deletion"
+msgstr "Bestätige Produktlöschung"
+
+#: ../admin/settings-init.php:1144
+msgid "The text that appears in the confirm box when deleting a saved product."
+msgstr ""
+"Der Text, der erscheint in der Bestätigungsbox wenn man ein gespeichertes "
+"Produkt löschen möchte."
+
+#: ../admin/settings-init.php:1152
+msgid "Colorpicker Cancel"
+msgstr "Colorpicker abbrechen"
+
+#: ../admin/settings-init.php:1153
+msgid "The text for the cancel link in the colorpicker."
+msgstr "Der Text für den Link wenn man den Colorpicker schliessen möchte."
+
+#: ../admin/settings-init.php:1161
+msgid "Colorpicker Choose"
+msgstr "Colorpicker Auswählen"
+
+#: ../admin/settings-init.php:1162
+msgid "The text for the choose button in the colorpicker."
+msgstr "Der Text für den Auswahlbutton im Colorpicker."
+
+#: ../admin/settings-init.php:1170
+msgid "Catalog: Add To Cart Button"
+msgstr "Katalog: Zum Warenkorb hinzufügen"
+
+#: ../admin/settings-init.php:1171
+msgid "The text for the add to cart button in the product listings."
+msgstr "Der Text für den Zum-Warenkorb-hinzufügen Button in den Produktlisten."
+
+#: ../admin/settings-init.php:1179
+msgid "Not Supported Device Information"
+msgstr "Nichtunterstütztes Gerät Information"
+
+#: ../admin/settings-init.php:1180
+msgid ""
+"The text that will be displayed instead the product designer, if you disable "
+"the product designer for smartphones or tablets."
+msgstr ""
+"Der Text der anstelle des Product Designers angezeigt wird, wenn du den "
+"Product Designer für Smartphones oder Tablets deaktivierst."
+
+#: ../admin/settings-init.php:1195
+msgid "Set the fonts for the fonts dropdown"
+msgstr "Setze die Schriften für den Schriften-Dropdown."
+
+#: ../admin/settings-init.php:1200
+msgid "Common Fonts"
+msgstr "Allgemeine Schriften"
+
+#: ../admin/settings-init.php:1210
+msgid "Google Webfonts"
+msgstr "Google Webfonts"
+
+#: ../admin/settings-init.php:1211
+msgid ""
+"Choose fonts from Google Webfonts. Note that too many fonts will slow down "
+"the loading of your website."
+msgstr ""
+"Wähle Schrfiten von Google Webfonts. Beachte dass zuviele Schriften das "
+"Laden deiner Website verlangsamt."
+
+#: ../admin/settings-init.php:1223
+msgid "Fonts Directory"
+msgstr "Schrfitenverzeichnis"
+
+#: ../admin/settings-init.php:1224
+msgid ""
+"You can add your own fonts to the fonts directory of the plugin, these font "
+"files need to be .woff files."
+msgstr ""
+"Du kannst deine eigenen Schrifen in das Schriftenverzeichnis des Plugins "
+"hinzufügen, diese Schrfiten müssen .woff Schriften sein."
+
+#~ msgid "The x-position of a design element."
+#~ msgstr "Die x-Position eines Motivelements."
+
+#~ msgid "The y-position of a design element."
+#~ msgstr "Die y-Position eines Motivelements."
+
+#~ msgid "Print"
+#~ msgstr "Drucken"
+
+#~ msgid "Order Item Images"
+#~ msgstr "Bestellartikel Bilder"
+
+#~ msgid "Menu Bar Area"
+#~ msgstr "Menubar Bereich"
+
+#~ msgid "The height for the whole product designer"
+#~ msgstr "Die Höhe für den gesamten Produktdesigner"
+
+#~ msgid "The width for the navigation in the sidebar"
+#~ msgstr "Die Breite für die Navigation in der Seitenleiste"
+
+#~ msgid "The width for the content box in the sidebar"
+#~ msgstr "Die Breite für die Inhaltsbox in der Seitenleiste"
+
+#~ msgid "Minimum Image Width"
+#~ msgstr "Minimale Bildbreite"
+
+#~ msgid "The min. width for all image elements."
+#~ msgstr "Die min. Breite für alle Bildelemente."
+
+#~ msgid "Maximum Image Width"
+#~ msgstr "Maximale Bildbreite"
+
+#~ msgid "The max. width for all image elements."
+#~ msgstr "Die max. Breite für alle Bildelemente."
+
+#~ msgid "Minimum Image Height"
+#~ msgstr "Minimale Bildhöhe"
+
+#~ msgid "The min. height for all image elements."
+#~ msgstr "Die min. Höhe für alle Bildelemente."
+
+#~ msgid "Maximum Image Height"
+#~ msgstr "Maximale Bildhöhe"
+
+#~ msgid "The max. height for all image elements."
+#~ msgstr "Die max. Höhe für alle Bildelemente."
+
+#~ msgid "Fancy Product Designer Options"
+#~ msgstr "Fancy Product Designer Optionen"
+
+#~ msgid "Key Not Valid Alert"
+#~ msgstr "Schlüssel nicht zulässig Warnung"
+
+#~ msgid ""
+#~ "The text for the alert when the key for saving a product is not valid."
+#~ msgstr ""
+#~ "Der Text für die Warnung wenn der Schlüssel zum Speichern eines Produktes "
+#~ "nicht zulässig ist."
+
+#~ msgid "Key To Save Product Prompt"
+#~ msgstr "Eingabebox: Schlüssel um ein Produkt zu speichern"
+
+#~ msgid "The text that appears in the prompt box when saving a product."
+#~ msgstr ""
+#~ "Der Text, der in der Eingabebox erscheint wenn man ein Produkt speichern "
+#~ "möchte."
+
+#~ msgid "Edit Fancy Products"
+#~ msgstr "Fancy Produkte bearbeiten"
+
+#~ msgid "Key In Use Alert"
+#~ msgstr "Schlüssen in Verwendung Warnung"
+
+#~ msgid ""
+#~ "The text for the alert when the key for saving a product is already used."
+#~ msgstr ""
+#~ "Der Text für die Warnung wenn der Schlüssel zum Speichern eines Produktes "
+#~ "bereits gesetzt ist."
+
+#, fuzzy
+#~ msgid "Tooltip for the \"Italic\" button."
+#~ msgstr "Tooltip für den \"Kursiv\" Button wenn man ein Textelement anpasst."
