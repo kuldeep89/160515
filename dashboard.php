@@ -478,6 +478,7 @@ get_header();
 <?php if ($quickbooks_is_connected) { ?>
 
 <script>
+$( document ).ready(function() {
 	$.ajax({
 			url:'<?php echo includes_url("qb_api/app_ipp_v3/qbpayment_apicall.php"); ?>',
 			cache: false,
@@ -493,6 +494,7 @@ get_header();
 				}
 			}		
     });
+});	
 </script>
 <?php 	
 	} 
